@@ -1,0 +1,1235 @@
+
+/*-------------------------------------------start of my body-ymii---------------------------- */
+body {
+    font-family: Arial,
+    padding: 0;
+    margin: 0;
+    background-image: url("assets/back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px solid pink;
+    position: absolute;
+    width: 100%;
+}
+
+/*------------------------------------------start of my navbar-ymii---------------------------------*/
+nav {
+  display: flex;
+  background-color: #000;
+  justify-content: center;
+  
+}
+
+nav a {
+  margin-top: 20px;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*------------------------------------------end of my navbar-ymii---------------------------------*/
+
+/*------------------------------------------start of my header-ymii---------------------------------*/
+header{
+  background-color: #000;
+  height: 500px;
+  
+  
+}
+
+.youmii{
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  margin-top: -60px;
+  margin-right: 100px;
+  color: #fff;
+}
+
+.ligne1{   
+  margin-left: 420px;
+  margin-right: 420px;
+  border: 3px solid #fff;
+  margin-top: 150px;
+}
+
+.ligne2{
+  margin-left: 420px;
+  margin-right: 420px;
+  border: 3px solid #fff;
+}
+
+
+.issouimg{
+  position: absolute;
+  width: 300px;
+  height: 800px;
+  margin-top: -300px;
+  margin-left: 1000px;
+  color: #fff;
+}
+
+
+.ibaboimg{
+  position: absolute;
+  margin-right: -50px;
+  margin-top: -40px;
+  width: 200px;
+  height: 400px;
+}
+
+h1{
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+h2{
+  color: #fff;
+  font-size: 20px;
+  margin-left: 550px;
+}
+
+/*------------------------------------------end of my header-ymii---------------------------------*/
+
+/*-----------------------------------start of my section-moi-ymii------------------------*/
+.tout{
+  height: 800px;
+  background-color: #fff;
+  margin-top: -30px;
+}
+
+.mendo {
+  position: absolute;
+  width: 400px;
+  height: 1000px;
+  padding-top: 70px;
+  margin-left: 100px;
+}
+
+#boxymii{
+  padding-top: 220px;
+}
+
+.qui{
+  padding-top: 11px;
+  border-style: solid;
+  border-radius: 4px;
+  text-align: center;
+  height: 300px;
+  background-color: #fff;
+  border: 3px solid #fff;
+  width: 600px;
+  margin-left: 600px;
+  text-align: justify;
+  box-shadow: 2px 2px 8px 2px;
+}
+
+h3{
+  margin-left: 15px;
+  font-size: 30px;
+}
+
+.presenym{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 20px;
+
+}
+/*-----------------------------------end of my section-moi-ymii------------------------*/
+/*-----------------------------------mes competences------------------------*/
+p{
+  color: #fff;
+  text-align: center;
+}
+.mescompetences{
+  padding-top: 20px;
+}
+.compymii{
+  padding-bottom: 30px;
+}
+
+#SkillBox {
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    width: 100%;
+    height: 1040px;
+    padding: 40px;    
+    background-image: url("assets/b2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#SkillBox img {
+    width: 20%;
+    height: 10%;
+    margin: auto 35%;
+    
+}
+.SkillBar {
+    width: 80%;
+    height: 50px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 20px auto;
+}
+#Skill-HTML {
+    width: 100%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 50px;
+    position: absolute;
+    background-color: #ea8564;
+}
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-webkit-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-moz-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-o-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}#Skill-CSS {
+    animation: Animate-CSS 5s;
+    -webkit-animation: Animate-CSS 5s;
+    -moz-animation: Animate-CSS 5s;
+    -o-animation: Animate-CSS 5s;
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    background-color: #55a69f;
+}
+@keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}@-webkit-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}@-moz-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}@-o-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}#Skill-jQuery {
+    animation: Animate-jQuery 5s;
+    -webkit-animation: Animate-jQuery 5s;
+    -moz-animation: Animate-jQuery 5s;
+    -o-animation: Animate-jQuery 5s;
+    width: 40%;
+    height: 50px;
+    position: absolute;
+    background-color: #99856d;
+}
+@keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-webkit-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-moz-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-o-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}#Skill-JS {
+    animation: Animate-JS 4s;
+    -webkit-animation: Animate-JS 4s;
+    -moz-animation: Animate-JS 4s;
+    -o-animation: Animate-JS 4s;
+    width: 65%;
+    height: 50px;
+    position: absolute;
+    background-color: #c44e45;
+
+to {
+    width: 65%}
+}#Skill-XML {
+    animation: Animate-XML 4s;
+    -webkit-animation: Animate-XML 4s;
+    -moz-animation: Animate-XML 4s;
+    -o-animation: Animate-XML 4s;
+    width: 40%;
+    height: 50px;
+    position: absolute;
+    background-color: #5aa669;
+}
+@keyframes Animate-XML {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-webkit-keyframes Animate-XML {
+    from {
+    width: 10px;
+}
+
+}
+@keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-webkit-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-moz-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-o-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-moz-keyframes Animate-XML {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-o-keyframes Animate-XML {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}#Skill-C {
+    animation: Animate-C 4s;
+    -webkit-animation: Animate-C 4s;
+    -moz-animation: Animate-C 4s;
+    -o-animation: Animate-C 4s;
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    background-color: #970cc1;
+}
+@keyframes Animate-C {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-webkit-keyframes Animate-C {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-moz-keyframes Animate-C {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-o-keyframes Animate-C {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}#Skill-JAVA {
+    animation: Animate-JAVA 4s;
+    -webkit-animation: Animate-JAVA 4s;
+    -moz-animation: Animate-JAVA 4s;
+    -o-animation: Animate-JAVA 4s;
+    width: 25%;
+    height: 50px;
+    position: absolute;
+    background-color: #8e930c;
+}
+@keyframes Animate-JAVA {
+    from {
+    width: 10px;
+}
+to {
+    width: 25%}
+}@-webkit-keyframes Animate-JAVA {
+    from {
+    width: 10px;
+}
+to {
+    width: 25%}
+}@-moz-keyframes Animate-JAVA {
+    from {
+    width: 10px;
+}
+to {
+    width: 25%}
+}@-o-keyframes Animate-JAVA {
+    from {
+    width: 10px;
+}
+to {
+    width: 25%}
+}#Skill-PHP {
+    animation: Animate-PHP 4s;
+    -webkit-animation: Animate-PHP 4s;
+    -moz-animation: Animate-PHP 4s;
+    -o-animation: Animate-PHP 4s;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    background-color: #5A69A6;
+}
+@keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-webkit-keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-moz-keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-o-keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}#Skill-SQL {
+    animation: Animate-SQL 4s;
+    -webkit-animation: Animate-SQL 4s;
+    -moz-animation: Animate-SQL 4s;
+    -o-animation: Animate-SQL 4s;
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    background-color: #23b1db;
+}
+@keyframes Animate-SQL {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-webkit-keyframes Animate-SQL {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-moz-keyframes Animate-SQL {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-o-keyframes Animate-SQL {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}#Skill-VBNET {
+    animation: Animate-VBNET 4s;
+    -webkit-animation: Animate-VBNET 4s;
+    -moz-animation: Animate-VBNET 4s;
+    -o-animation: Animate-VBNET 4s;
+    width: 35%;
+    height: 50px;
+    position: absolute;
+    background-color: #f8a51e;
+}
+@keyframes Animate-VBNET {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}@-webkit-keyframes Animate-VBNET {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}@-moz-keyframes Animate-VBNET {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}@-o-keyframes Animate-VBNET {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}.Skill-Area {
+    z-index: 1;
+    float: left;
+    //position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #fff;
+    //font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
+
+.PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    margin-top: 15px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+    //font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
+
+
+/*------------------------ma formation ymii------------------------------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+.maformation{
+  padding: 70px;
+}
+
+.pmaforma{
+  margin-top: -70px;
+  color: #fff;
+  font-size: 20px;
+
+}
+
+.timeline {
+  position: relative;
+  width: 100%;
+  height: 1300px;
+  background-image: url("assets/code.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: -30px;
+ }
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: lightgrey;
+  top: 250px;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -3px;
+  height: 810px;
+}
+
+.mendoza {
+  padding: 10px 50px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+  height: 10%;
+  margin-top: 80px;
+}
+
+.oc{
+  padding-top: 6px;
+  border-style: solid;
+  border-radius: 4px;
+  text-align: center;
+  height: 35px;
+  color: #000;
+  background-color: #fff;
+  border: 3px solid #a87a7d;
+  width: 380px;
+  margin-left: 195px;
+  margin-top: 70px
+}
+
+.certi{
+  padding-top: 6px;
+  border-style: solid;
+  border-radius: 4px;
+  text-align: center;
+  height: 35px;
+  color: #000;
+  background-color: #fff;
+  border: 3px solid #007962;
+  width: 380px;
+  margin-top: 70px;
+  margin-left: -1px;
+}
+
+.lp{
+  padding-top: 6px;
+  border-style: solid;
+  border-radius: 4px;
+  text-align: center;
+  height: 35px;
+  color: #000;
+  background-color: #fff;
+  border: 3px solid #3eb3e5;
+  width: 380px;
+  margin-left: 195px;
+  margin-top: 70px
+}
+
+.bac{
+  padding-top: 6px;
+  border-style: solid;
+  border-radius: 4px;
+  text-align: center;
+  height: 35px;
+  color: #000;
+  background-color: #fff;
+  border: 3px solid #fb957f;
+  width: 380px;
+  margin-top: 70px;
+  margin-left: -1px;
+
+}
+
+.mendoza:after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -15px;
+  background-color: #a87a7d;
+  border: 2px solid #fff;
+  top: 82px;
+  margin-bottom: 100px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  left: 0%;
+}
+
+.right {
+  left: 50%;
+}
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 87px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 87px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+.right::after {
+  left: -16px;
+}
+
+.youri {
+  padding: 13px;
+  background-color: #FFF;
+  position: relative;
+  border-radius: 6px;
+  border: 3px solid #a87a7d;
+  width: 380px;
+  height: 80px;
+  text-align: center;
+  margin-right: -10px;
+  left: 195px;
+  top: -6px;
+}
+
+.yourii {
+  padding: 13px;
+  background-color: #FFF;
+  position: relative;
+  border-radius: 6px;
+  border: 3px solid #007962;
+  text-align: center;
+  width: 380px;
+  height: 80px;
+  top: -6px;
+}
+.youm {
+  padding: 13px;
+  background-color: #FFF;
+  position: relative;
+  border-radius: 6px;
+  border: 3px solid #3eb3e5;
+  width: 380px;
+  text-align: center;
+  height: 80px;
+  left: 195px;
+  top: -6px;
+}
+
+
+.yourim {
+  padding: 13px;
+  background-color: #FFF;
+  position: relative;
+  border-radius: 6px;
+  border: 3px solid #fb957f;
+  text-align: center;
+  width: 380px;
+  height: 80px;
+  top: -6px;
+}
+
+@media screen and (max-width: 200px) {
+  .timeline::after {
+    left: 31px;
+}
+
+.mendoza {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    background-color: blue;
+}
+
+.mendoza::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+  .left::after, .right::after {
+    left: 15px;
+}
+
+.right {
+    left: 0%;
+}
+}
+
+.ymiitext{
+  color: #000;
+  font-size: 17px;
+}
+
+ /*------------------------fin de ma formation ymii------------------------------------------- */
+
+ /*------------------------start de mon experience pro-ymii------------------------------------------- */
+
+.expymii{
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.mesexperiences{
+  margin-top: 55px;
+  padding-top: 40px;
+}
+
+img {
+  width: 100%;
+}
+
+.caption,
+h5,
+.date {
+  margin: 0;
+  text-align: center;
+  color: red;
+}
+
+.caption,
+h5 {
+  font-family: "Reenie Beanie", sans-serif;
+  font-size: 2em;
+  padding: 10px 10px 0 10px;
+}
+
+.caption-1{
+  font-family: "Reenie Beanie", sans-serif;
+  font-size: 1em;
+  margin: 0;
+  text-align: center;
+  color: red;
+  margin-top: 3px;
+ 
+}
+
+
+.caption-2{
+  font-family: "Reenie Beanie", sans-serif;
+  font-size: 1em;
+  margin: 0;
+  text-align: center;
+  color: red;
+  margin-top: 3px;
+ 
+}
+
+.date {
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.description {
+  font-size: 0.9em;
+  padding: 0 20px 20px 20px;
+  text-align: left;
+  color: black;
+  text-align: justify;
+  letter-spacing: -1px;
+}
+
+.container {
+  perspective: 1000px;
+  display: inline-block;
+  margin: 2%;
+}
+
+.container:hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.container,
+.front,
+.back {
+  width: 250px;
+  height: 250px;
+}
+
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front-1,
+.back-1 {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 275px;
+  height: 480px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  border-bottom: 18px solid #f9db8c;
+  padding-bottom: 20px;
+}
+
+
+.front-2,
+.back-2 {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 275px;
+  height: 480px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  border-bottom: 18px solid #3eb3e5;
+}
+
+
+.front-3,
+.back-3 {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 275px;
+  height: 480px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  border-bottom: 18px solid #fb957f;
+}
+
+
+.front-4,
+.back-4 {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 275px;
+  height: 480px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  border-bottom: 18px solid #e272ae;
+}
+
+.front-1 {
+  z-index: 2;
+}
+
+.front-2 {
+  z-index: 2;
+}
+
+.front-3 {
+  z-index: 2;
+}
+
+.front-4 {
+  z-index: 2;
+}
+
+.back-1 {
+  transform: rotateY(180deg);
+}
+
+.back-2 {
+  transform: rotateY(180deg);
+}
+
+.back-3 {
+  transform: rotateY(180deg);
+}
+
+.back-4 {
+  transform: rotateY(180deg);
+}
+
+#content {
+  text-align: center;
+  background-color: inherit;
+  height: 560px;
+}
+
+div > img {
+  width: 90%;
+  height: 50%;
+  padding: 12px;
+  margin-top: 20px;
+}
+
+div >
+.caption {
+  padding: 30px;
+}
+
+
+ /*------------------------fin de mon experience pro-ymii---------------------------- */
+/*------------------------mes realisation------------------------------------------- */
+
+ .realisa-1{
+    padding-top: 80px;
+    margin-top: 230px;
+    background-image: url("assets/service.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1000px;
+}
+
+/*------------------------ fin de mes realisation---------------------------------- */
+/*------------------------mes services------------------------------------------- */
+
+.messervices{
+    padding-top: 100px;  
+    background-image: url("assets/images.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1000px;
+}
+
+.servi{
+  margin-top: -2px;
+  padding-bottom: 60px;
+}
+
+
+#alsymii{
+  position: absolute;
+  display: flex;
+  word-spacing: 30px;
+  color: #fff;
+  justify-content: center;
+  margin-left: 110px;
+
+}
+.ser1{
+   box-shadow: 2px 2px 8px 2px;
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  color: #000;
+  margin-right: 40px;
+  text-align: center;
+  padding-top: 120px;
+  border-bottom-right-radius: 60px;
+  border-top-left-radius: 60px;
+}
+
+
+.ser2{
+  box-shadow: 2px 2px 8px 2px;
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  color: #000;
+  margin-right: 40px;
+  text-align: center;
+  padding-top: 120px;
+  border-bottom-right-radius: 60px;
+  border-top-left-radius: 60px;
+}
+
+
+.ser3{
+   box-shadow: 2px 2px 8px 2px;
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  color: #000;
+  margin-right: 40px;
+  text-align: center;
+  padding-top: 120px;
+  border-bottom-right-radius: 60px;
+  border-top-left-radius: 60px;
+}
+
+.ser4{
+  box-shadow: 2px 2px 8px 2px;
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  color: #000;
+  margin-right: 40px;
+  text-align: center;
+  padding-top: 120px;
+  border-bottom-right-radius: 60px;
+  border-top-left-radius: 60px;
+}
+
+#alsyou{
+  margin-top: 300px;
+  position: absolute;
+  display: flex;
+  word-spacing: 30px;
+  color: #fff;
+  justify-content: center;
+  margin-left: 110px;
+}
+
+.syo5{
+   box-shadow: 2px 2px 8px 2px;
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  color: #000;
+  margin-right: 40px;
+  text-align: center;
+  padding-top: 120px;
+  border-bottom-right-radius: 60px;
+  border-top-left-radius: 60px;
+}
+
+
+.syo6{
+  box-shadow: 2px 2px 8px 2px;
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  color: #000;
+  margin-right: 40px;
+  text-align: center;
+  padding-top: 120px;
+  border-bottom-right-radius: 60px;
+  border-top-left-radius: 60px;
+}
+
+
+.syo7{
+   box-shadow: 2px 2px 8px 2px;
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  color: #000;
+  margin-right: 40px;
+  text-align: center;
+  padding-top: 120px;
+  border-bottom-right-radius: 60px;
+  border-top-left-radius: 60px;
+}
+
+.syo8{
+  box-shadow: 2px 2px 8px 2px;
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  color: #000;
+  margin-right: 40px;
+  text-align: center;
+  padding-top: 120px;
+  border-bottom-right-radius: 60px;
+  border-top-left-radius: 60px;
+}
+
+
+
+/*------------------------fin de mes services------------------------------------------- */
+/*------------------------mes realisation------------------------------------------- */
+
+ .en-savoir{
+    background-image: url("assets/fleche.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 900px;
+    margin-top: -25px;
+}
+.plus-sur{
+  padding-top: 90px;
+}
+
+/*------------------------ fin de mes realisation---------------------------------- */
+
+footer{
+  margin: 0;
+  padding: 0;
+  background-image: url("assets/footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  margin-bottom: -2%;
+  }
+
+#reseaux {
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+}
+
+.linkedin{
+
+  width: 100px;
+  height: 140px;
+}
+.facebook{
+  width: 100px;
+  height: 140px;
+  margin-right: 20px
+}
+
+.twitter{
+  width: 100px;
+  height: 140px;
+  margin-right: 20px
+}
+
+
+.gmail{
+  width: 100px;
+  height: 140px;
+  margin-right: 20px
+}
+
+.git{
+  width: 100px;
+  height: 140px;
+  margin-right: 20px
+}
+.google{
+  width: 100px;
+  height: 140px;
+}
+/*-----------------------------------start of my media query-ymii----------------------- */
+
+
+@media screen and (max-width: 1300px) {
+  body {
+    position: absolute;
+    width: 100%;
+}
+
+
+}
+
+
+/*------------------------ma formation ymii------------------------------------------- */
+
+/*-------------------------------------------end of my body-ymii---------------------------- */
