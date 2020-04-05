@@ -8,7 +8,6 @@ header{
   height: 557px;
   padding-top: 150px;
 }
-
 /* -------------------------------------------Slideout Sidebar----------------------------------------*/
 
 .slideout-sidebar {
@@ -87,9 +86,6 @@ i{
 }
 /* ----------------------------------------------- end of my Menu Icon-------------------------------------*/
 /*------------------------------------------start of my header-ymii---------------------------------*/
-
-
-
 #ligne1{
   margin-left: 420px;
   margin-right: 420px;
@@ -102,7 +98,6 @@ i{
   border: 2px solid #ff0000;
 }
 
-
 .issouimg > img{
   display: flex;
   margin-left: auto;  
@@ -113,7 +108,6 @@ i{
   margin-right: 45px;
   color: #fff;
 }
-
 
 .ibaboimg{
   position: relative;
