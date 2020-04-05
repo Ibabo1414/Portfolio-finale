@@ -1,10 +1,11 @@
 body {
   font-family: 'Lato', arial, sans-serif;
   margin: 0;
+  border: 1px solid #aaaaaa;
 }
 header{
-  background-color: #000;
-  height: 500px;
+  background-color: #0D0707;
+  height: 557px;
   padding-top: 150px;
 }
 
@@ -14,8 +15,8 @@ header{
   position: fixed;
   top: 0;
   left: -190px;
-  z-index: 0;
-  width: 150px;
+  z-index: 1;
+  width: 170px;
   height: 100%;
   padding: 20px;
   background-color: #000;
@@ -26,21 +27,29 @@ header{
   list-style: none;
   margin: 0;
   padding: 0;
+  background-color: #000;
 }
 
 .slideout-sidebar ul li {
   cursor: pointer;
-  padding: 18px 0;
+  padding: 18px;
   border-bottom: 1px solid rgba(244,244,244,0.4);
   color: rgba(244,244,244,0.7);
+  text-align: center;
 }
 
-.slideout-sidebar ul li:last-child {
+.slideout-sidebar ul li :last-child {
   border-bottom: 0;
 }
 
-.slideout-sidebar ul li:hover {
-  color: rgba(244,244,244,1);
+.slideout-sidebar ul li a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+}
+
+.slideout-sidebar ul li a:hover {
+  color: #ff0000;
 }
 
 /* -------------------------------------------end of my Slideout Sidebar----------------------------------------*/
@@ -52,7 +61,7 @@ header{
 }
 
 .menu-icon {
-  position: absolute;
+  position: fixed;
   top: 18px;
   left: 30px;
   font-size: 24px;
@@ -81,31 +90,33 @@ i{
 
 
 
-.ligne1{
+#ligne1{
   margin-left: 420px;
   margin-right: 420px;
-  border: 3px solid #fff;
+  border: 2px solid #ff0000;
 }
 
 .ligne2{
   margin-left: 420px;
   margin-right: 420px;
-  border: 3px solid #fff;
+  border: 2px solid #ff0000;
 }
 
 
 .issouimg > img{
-  position: absolute;
-  width: 300px;
-  height: 400px;
-  margin-top: -213px;
-  margin-left: 1000px;;
+  display: flex;
+  margin-left: auto;  
+  position: relative;
+  width: 360px;
+  height: 500px;
+  margin-top: -228px;
+  margin-right: 45px;
   color: #fff;
 }
 
 
 .ibaboimg{
-  position: absolute;
+  position: relative;
   margin-right: -50px;
   margin-top: -100px;
   width: 200px;
@@ -113,62 +124,78 @@ i{
 }
 
 h1{
-  color: #fff;
+  color: #aaaaaa;
   font-size: 30px;
   text-align: center;
 }
 
 h2{
-  color: #fff;
+  color: #aaaaaa;
   font-size: 20px;
-  margin-left: 550px;
+  text-align: center;
 }
 
 /*------------------------------------------end of my header-ymii---------------------------------*/
 
 /*-----------------------------------start of my section-moi-ymii------------------------*/
-.tout{
-  height: 800px;
+#moimeme{
+  height:850px;
   background-color: #fff;
-  margin-top: -30px;
 }
 
-.mendo {
-  position: absolute;
-  width: 400px;
-  height: 1000px;
-  padding-top: 70px;
-  margin-left: 100px;
+#aproposdemoi{
+  color: #0D0707;
+  padding-top: 65px;
+  margin-bottom: -0px;
 }
-
-#boxymii{
-  padding-top: 220px;
-}
-
-.qui{
-  padding-top: 11px;
-  border-style: solid;
-  border-radius: 4px;
+.proposphrase{
+  color: #0D0707;
   text-align: center;
-  height: 300px;
-  background-color: #fff;
+  border-bottom: 1px solid #aaaaaa;
+  padding-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#qui > img {
+  position: relative;
+  width: 30%;
+  height:90%;
+  margin-left: 80px;
+  bottom: -7px;
+  border-left: 1px solid #aaaaaa;
+}
+
+#qui{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-style: solid;
+  width: 85%;
+  height: 60%;
+  left: 107px;
+  margin-top: 55px;
+  right: 70px;
+  background-color: #0D0707;
   border: 3px solid #fff;
-  width: 600px;
-  margin-left: 600px;
-  text-align: justify;
-  box-shadow: 2px 2px 8px 2px;
 }
 
-h3{
-  margin-left: 15px;
-  font-size: 30px;
-}
 
-.presenym{
-  margin-left: 15px;
-  margin-right: 15px;
+#pry{
+  margin-left:  4%;
+  color: #aaaaaa;
   font-size: 20px;
+  text-align: justify;
+  padding-top: 53px;
+}
 
+.presenym-2{
+  margin-top: 20px;
+  margin-left:  4%;
+  margin-right:85px;
+  font-size: 20px;
+  color: #aaaaaa;
+  text-align: justify;
 }
 /*-----------------------------------end of my section-moi-ymii------------------------*/
 /*-----------------------------------mes competences------------------------*/
@@ -185,12 +212,21 @@ h3{
   background-size: cover;
   background-attachment: fixed;
 }
+#mescompetences {
+  padding-top: 35px;
+  font-weight: bold;
+}
 
 .mescoibabo{
-   margin-top: 30px;
-  color: #fff;
+  margin-top: 30px;
+  color: #aaaaaa;
   font-size: 20px;
-  text-align: center; 
+  text-align: center;
+  border-bottom: 1px solid #aaaaaa;
+  padding-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-weight: bold;
 }
 
 #allfronandbaymii {
@@ -199,13 +235,13 @@ h3{
 }
 
 .frnd{
-  width: 45%;
-  margin-left: 15px;
+  width: 37%;
+  margin-left: 140px;
 }
 
 .bnd{
-  width: 45%;
-  margin-left: 80px;
+  width: 37%;
+  margin-left: 40px;
 }
 
 
@@ -246,20 +282,20 @@ h3{
   content:  attr(data-skill);
   background-color: #f3b0ff;
   display: inline-block;
-  padding: 5px 0 5px 10px;
+  padding: 2px 0 5px 5px;
   border-radius: inherit;
   animation: load 2s 0s;
   -webkit-animation: load 2s 0s;
   -moz-animation: load 2s 0s;
   -o-animation: load 2s 0s;
 }
-
 /*--------------Front-end------------------*/
 #front-end{
-  color: #fff;
+  color: #aaaaaa;
   font-size: 30px;
   margin-bottom: 15px;
   text-align: center;
+  font-weight: bold;
 }
 
 .cotefymii{
@@ -328,7 +364,7 @@ h3{
   content:  attr(data-skill);
   background-color: #f3b0ff;
   display: inline-block;
-  padding: 5px 0 5px 10px;
+  padding: 2px 0 5px 5px;
   border-radius: inherit;
   animation: load 2s 0s;
   -webkit-animation: load 2s 0s;
@@ -338,10 +374,11 @@ h3{
 
 
 #Back-end{
-  color: #fff;
+  color: #aaaaaa;
   font-size: 30px;
   text-align: center;
   margin-bottom: 15px;
+  font-weight: bold;
 }
 
 .cotebacymii{
@@ -404,22 +441,28 @@ h3{
   box-sizing: border-box;
 }
 
-.maformation{
+#maformation{
   padding: 70px;
+  font-weight: bold;
 }
 
 .pmaforma{
   margin-top: -70px;
-  color: #fff;
+  color: #aaaaaa;
   font-size: 20px;
   text-align: center;
+  border-bottom: 1px solid #aaaaaa;
+  padding-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-weight: bold;
 }
 
 .timeline {
   position: relative;
   width: 100%;
   height: 1300px;
-  background-color: #556b2f;
+  background-color: #0D0707;
   margin-top: -30px;
  }
 
@@ -643,11 +686,25 @@ h3{
 .expymii{
   font-size: 20px;
   padding-bottom: 30px;
+  color: #fff;
+  border-bottom: 1px solid #aaaaaa;
+  padding-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-weight: bold;
 }
-.mesexperiences{
-  margin-top: 55px;
-  padding-top: 40px;
-  color: #000;
+#mesexperiences{
+  padding-top: 90px;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+#content {
+  margin-top: -20px;
+  text-align: center;
+  background-color: #556b2f;
+  height: 900px;
 }
 
 img {
@@ -665,7 +722,7 @@ h5,
 .caption,
 h5 {
   font-family: "Reenie Beanie", sans-serif;
-  font-size: 2em;
+  font-size: 1em;
   padding: 10px 10px 0 10px;
 }
 
@@ -717,7 +774,7 @@ h5 {
 .container,
 .front,
 .back {
-  width: 250px;
+  width: 200px;
   height: 250px;
 }
 
@@ -733,7 +790,7 @@ h5 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 275px;
+  width: 230px;
   height: 480px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #fff;
@@ -748,7 +805,7 @@ h5 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 275px;
+  width: 230px;
   height: 480px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #fff;
@@ -762,7 +819,7 @@ h5 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 275px;
+  width: 230px;
   height: 480px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #fff;
@@ -776,7 +833,7 @@ h5 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 275px;
+  width: 230px;
   height: 480px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #fff;
@@ -815,12 +872,6 @@ h5 {
   transform: rotateY(180deg);
 }
 
-#content {
-  text-align: center;
-  background-color: inherit;
-  height: 560px;
-}
-
 div > img {
   width: 90%;
   height: 50%;
@@ -837,192 +888,561 @@ div >
  /*------------------------fin de mon experience pro-ymii---------------------------- */
  /*------------------------mes realisation------------------------------------------- */
 
- .realisa-1{
-    padding-top: 80px;
-    margin-top: 230px;
-    background-image: url("assets/service.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100%;
-    height: 1000px;
+ .ibreal{
+  position: relative;
+  width: 100%;
+  height: 850px;
+  background-color: #fff;
+  margin-top: 10px;
 }
 
 .reali{
   text-align: center;
   font-size: 20px;
+  color: #0D0707;
+  border-bottom: 1px solid #aaaaaa;
+  padding-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+#mesreah {
+  color: #0D0707;
+  font-weight: bold;
+}
+
+.ibreal h1{
+  padding-top: 50px;
+}
+
+#mesrealisations{
+ width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.realisations{
+  position: relative;
+  left: 18%;
+  width: 300px;
+  height: 200px;
+  transition: 0.3s ease-out;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  border-bottom-right-radius: 60px;
+  border-top-left-radius: 60px;
+  background-color: #fff;
+  }
+
+
+.realisations .imagerealisisso{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #001f3f;
+  border-bottom-right-radius: 60px;
+  border-top-left-radius: 60px;
+}
+
+.realisations .imagerealisisso img{
+
+  position: absolute;
+  top: -15px;
+  left: 0;
+  width: 105%;
+  height: 95%;
+  padding-right: 27px;
+  display: block;
+  transition: 0.5s;
+  border-bottom-right-radius: 60px;
+  border-top-left-radius: 60px;
+}
+
+.realisations .texterealis{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  background: #2F4F4F;
+  transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
+  box-sizing: border-box;
+  overflow: hidden;
+  border-bottom-right-radius: 60px;
+  border-top-left-radius: 60px;
+}
+
+.realisations:hover .texterealis{
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  border-bottom-right-radius: 60px;
+  border-top-left-radius: 60px;
+}
+
+.texterealis p{
+  font-size: 14px;
+  margin: 10px 0 0;
+  padding: 1em 1em;
+  transform: translateY(2em);
+  line-height: 1.3em;
+  transition: 0.3s;
+  text-align: justify;
+  opacity: 0;
+}
+
+.realisations:hover .texterealis p{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.realisations:hover {
+  box-shadow: 0 0 5em rgba(0, 0, 0, 0.4);
+}
+
+.texterealis .listedep{
+
+  font-size: 25px;
+  text-align: center;
+  color:  #FF4500;
+  margin-bottom: -37px;
+  margin-top: -15px;
+}
+.texp{
+  font-size: 15px;
+  color:  #fff;
+}
+/*-----------------button_hover_animate-cliquez ici-------------------- */
+
+.realbut>a{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 130px;
+  height: 50px;
+  text-align: center;
+  line-height: 60px;
   color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 30px;
+  z-index: 1;
+}
+
+.realbut>a:hover{
+  animation: animate 8s linear infinite;
+}
+  @keyframes animate 
+{
+  0%
+  {
+    background-position: 0%;
+  }
+  100%
+  {
+    background-position: 400%;
+  }
+}
+
+.realbut>a:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 40px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.realbut>a:hover:before{
+  filter: blur(20px);
+  opacity: 1;
+  animation: animate 8s linear infinite;
 }
 /*------------------------ fin de mes realisation---------------------------------- */
 
 /*------------------------mes services------------------------------------------- */
-
-.messervices{
+#messervices{
     padding-top: 100px;  
     background-image: url("assets/images.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 1000px;
+    height: 1500px;
 }
 
 .servi{
-  font-size: 20px;
-  color: #fff;
-  text-align: center;
   margin-top: -2px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
+  color: #aaaaaa;
+  text-align: center;
+  border-bottom: 1px solid #aaaaaa;
+  padding-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-weight: bold;
 }
 
-
-#alsymii{
-  position: absolute;
+#lesservices1{
+  width: 1100px;
   display: flex;
-  word-spacing: 30px;
-  color: #fff;
-  justify-content: center;
-  margin-left: 110px;
-
-}
-.ser1{
-   box-shadow: 2px 2px 8px 2px;
-  background-color: #fff;
-  width: 250px;
-  height: 250px;
-  color: #000;
-  margin-right: 40px;
-  text-align: center;
-  padding-top: 120px;
-  border-bottom-right-radius: 60px;
-  border-top-left-radius: 60px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-left: -80px;
 }
 
-
-.ser2{
-  box-shadow: 2px 2px 8px 2px;
-  background-color: #fff;
-  width: 250px;
-  height: 250px;
-  color: #000;
-  margin-right: 40px;
-  text-align: center;
-  padding-top: 120px;
-  border-bottom-right-radius: 60px;
-  border-top-left-radius: 60px;
-}
-
-
-.ser3{
-   box-shadow: 2px 2px 8px 2px;
-  background-color: #fff;
-  width: 250px;
-  height: 250px;
-  color: #000;
-  margin-right: 40px;
-  text-align: center;
-  padding-top: 120px;
-  border-bottom-right-radius: 60px;
-  border-top-left-radius: 60px;
-}
-
-.ser4{
-  box-shadow: 2px 2px 8px 2px;
-  background-color: #fff;
-  width: 250px;
-  height: 250px;
-  color: #000;
-  margin-right: 40px;
-  text-align: center;
-  padding-top: 120px;
-  border-bottom-right-radius: 60px;
-  border-top-left-radius: 60px;
-}
-
-#alsyou{
-  margin-top: 300px;
-  position: absolute;
+#lesservices2{
+  width: 1100px;
   display: flex;
-  word-spacing: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+/*------------------------Serv1---------------*/
+.lie1{
+  font-size:25px;
+  color: #aaaaaa;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-left: 60px;
+
+}
+
+.lie2{
+  font-size:25px;
+  color: #aaaaaa;
+  font-weight: bold;
+  margin-left: 140px;
+}
+
+.serv1{
+  position: relative;
+  left: 18%;
+  width: 240px;
+  height: 260px;
+  margin-bottom: 80px;
+  transition: 0.3s ease-out;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  }
+
+.serv1 .imageservice{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #708090;
+  background-color: #fff;
+}
+
+
+.serv1 .imageservice img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: -1px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: 0.5s;
+}
+
+.serv1 .texteservice{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background: #001f3f;
+  transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.serv1:hover .texteservice{
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.texteservice p{
+  margin: 10px 0 0;
+  padding: 1em 1em;
+  transform: translateY(2em);
+  line-height: 1.3em;
+  transition: 0.3s;
+  text-align: justify;
+  opacity: 0;
+}
+
+.serv1:hover .texteservice p{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.texteservice .listeserv{
+
+  font-size: 19px;
+  text-align: center;
+  color:  #FF4500;
+  margin-top: 2px;
+  margin-bottom: -40px;
+}
+.texser{
+  font-size: 13px;
+  color:  #fff;
+}
+
+.serbut>img{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 130px;
+  height: 50px;
+  text-align: center;
+  line-height: 60px;
   color: #fff;
-  justify-content: center;
-  margin-left: 110px;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 30px;
+  z-index: 1;
 }
 
-.syo5{
-   box-shadow: 2px 2px 8px 2px;
-  background-color: #fff;
-  width: 250px;
-  height: 250px;
+/*------------------------ fin de mes realisation---------------------------------- */
+/*------------------------contact---------------------------------- */
+
+#mescontacts{ 
+    position: relative;
+    background-image: url("assets/back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+#contact{
+  padding-top: 95px;
   color: #000;
-  margin-right: 40px;
   text-align: center;
-  padding-top: 120px;
-  border-bottom-right-radius: 60px;
-  border-top-left-radius: 60px;
+  font-weight: bold;
 }
 
-
-.syo6{
-  box-shadow: 2px 2px 8px 2px;
-  background-color: #fff;
-  width: 250px;
-  height: 250px;
+.conta{
+  padding-bottom: 30px;
   color: #000;
-  margin-right: 40px;
   text-align: center;
-  padding-top: 120px;
-  border-bottom-right-radius: 60px;
-  border-top-left-radius: 60px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-weight: bold;
 }
 
-
-.syo7{
-   box-shadow: 2px 2px 8px 2px;
-  background-color: #fff;
-  width: 250px;
-  height: 250px;
-  color: #000;
-  margin-right: 40px;
-  text-align: center;
-  padding-top: 120px;
-  border-bottom-right-radius: 60px;
-  border-top-left-radius: 60px;
+.wrapper{
+  position: absolute;
+  top: 65%;
+  transform: translateY(-50%);
+  width: 55%;
+  padding: 0 20px;
+  margin-left: 100px;
 }
 
-.syo8{
-  box-shadow: 2px 2px 8px 2px;
-  background-color: #fff;
-  width: 250px;
-  height: 250px;
-  color: #000;
-  margin-right: 40px;
-  text-align: center;
-  padding-top: 120px;
-  border-bottom-right-radius: 60px;
-  border-top-left-radius: 60px;
+#useme{
+  position: absolute;
+  top: 65%;
+  transform: translateY(-50%);
+  padding: 0 20px;
+  margin-left:56%;
+
 }
 
+#appelemoi{
+  width: 330px;
+  height: 342px;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.8);
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0,0,0,0.13);
+}
 
+.contact-form{
+  max-width: 550px;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.8);
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0,0,0,0.13);
+}
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
 
-/*------------------------fin de mes services------------------------------------------- */
-/*------------------------mes realisation------------------------------------------- */
+.input-fields,
+.msg{
+  width: 48%;
+}
 
- .en-savoir{
+.input-fields .input,
+.msg textarea{
+  margin: 10px 0;
+  background: transparent;
+  border:0;
+  border-bottom: 2px solid  #c5ecfd;
+  padding: 10px;
+  color: #c5ecfd;
+  width: 100%;
+}
+
+.msg textarea {
+  height: 212px;
+}
+
+::-webkit-input-placeholder{
+  color: #c5ecfd;
+}
+
+::-moz-input-placeholder{
+  color: #c5ecfd;
+}
+
+::-ms-input-placeholder{
+  color: #c5ecfd;
+}
+
+.btn {
+  width: 100%;
+  background:  #39b7dd;
+  text-align: center;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #39b7dd;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #ff0000;
+  border: 1px solid #ff0000;
+}
+@media screen and (max-width: 600px){
+  .contact-form{
+    flex-direction: column;
+  }
+  .msg textarea {
+  height: 80px;
+}
+.input-fields,
+.msg{
+  width: 100%;
+}
+}
+
+.phonemail-info{
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 10px;
+}
+
+.mesnumeros{
+  padding: 0 10px;
+  margin: 0 20px;
+  width: calc(33% - 20px);
+  height: 100px;
+  color: #fff;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.mesnumeros-icon{
+  font-size: 28px;
+  background: #ff6348;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px !important;
+  border-radius: 50%;
+  transition: 0.3s linear;
+}
+
+.mesnumeros:hover .mesnumeros-icon{
+  background: none;
+  color: #ff6348;
+  transform: scale(1.6);
+}
+
+.mesnumeros p{
+  margin-top: 1px;
+  font-weight: 300;
+  max-height: 0;
+  opacity: 0;
+  transition: 0.3s linear;
+}
+
+.mesnumeros:hover p{
+  max-height: 40px;
+  opacity: 1;
+}
+
+@media screen and (max-width:800px) {
+  .phonemail-info{
+    flex-direction: column;
+  }
+  .mesnumeros{
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+  }
+}
+
+/*------------------------mon blog---------------------------------- */
+.en-savoir{
   background-color: #556b2f;
   width: 100%;
   height: 200%;
   margin-top: -27px;
 }
-.plus-sur{
+#blog{
   padding-top: 70px;
   text-transform: uppercase;
   opacity: .29;
   animation: pulse 3s linear alternate infinite;
 }
-
-/*------------------------ fin de mes realisation---------------------------------- */
-
-/*------------------------ start_qui_suis-je_?---------------------------------- */
 
 .contai {
   position: relative;
@@ -1111,13 +1531,12 @@ div >
 /*------------------------ end_qui_suis-je_?---------------------------------- */
 
 
-
 .arrow-container{
   width: 100px;
   height: 100px;
   margin: 0 auto;
   position: absolute;
-  top: 1040%;
+  margin-top: -18%;
   left: 0;
   right: -17px;
 }
