@@ -197,7 +197,7 @@ h2{
   width: 100%;
   margin: 0 auto;
   font-size: 20px;
-  font-family: 'Indie Flower', cursive;
+
   width: 100%;
   height: 650px;
   padding: 40px;    
@@ -229,12 +229,12 @@ h2{
 }
 
 .frnd{
-  width: 37%;
-  margin-left: 140px;
+  width: 40%;
+  margin-left: 110px;
 }
 
 .bnd{
-  width: 37%;
+  width: 40%;
   margin-left: 40px;
 }
 
@@ -491,7 +491,7 @@ h2{
   background-color: #fff;
   border: 3px solid #a87a7d;
   width: 380px;
-  margin-left: 195px;
+  margin-left: 160px;
   margin-top: 70px
 }
 
@@ -519,7 +519,7 @@ h2{
   background-color: #fff;
   border: 3px solid #3eb3e5;
   width: 380px;
-  margin-left: 195px;
+  margin-left: 160px;
   margin-top: 70px
 }
 
@@ -600,7 +600,7 @@ h2{
   height: 80px;
   text-align: center;
   margin-right: -10px;
-  left: 195px;
+  left: 160px;
   top: -6px;
 }
 
@@ -624,7 +624,7 @@ h2{
   width: 380px;
   text-align: center;
   height: 80px;
-  left: 195px;
+  left: 160px;
   top: -6px;
 }
 
@@ -1241,6 +1241,7 @@ div >
     background-size: cover;
     background-attachment: fixed;
     height: 700px;
+    margin-top: -25px;
 }
 
 #contact{
@@ -1280,7 +1281,7 @@ div >
 }
 
 #appelemoi{
-  width: 330px;
+  width: 295px;
   height: 342px;
   margin: 0 auto;
   background: rgba(0,0,0,0.8);
@@ -1339,11 +1340,11 @@ div >
 
 .btn {
   width: 100%;
-  background:  #39b7dd;
+  background:  #556b2f;
   text-align: center;
   padding: 12px;
   border-radius: 6px;
-  border: 1px solid #39b7dd;
+  border: 1px solid #556b2f;
   color: #fff;
   cursor: pointer;
   text-transform: uppercase;
@@ -1380,12 +1381,11 @@ div >
   height: 100px;
   color: #fff;
   cursor: pointer;
-  padding-top: 10px;
 }
 
 .mesnumeros-icon{
   font-size: 28px;
-  background: #ff6348;
+  background: #556b2f;
   width: 60px;
   height: 60px;
   text-align: center;
@@ -1429,7 +1429,7 @@ div >
   background-color: #556b2f;
   width: 100%;
   height: 200%;
-  margin-top: -27px;
+  margin-top: -30px;
 }
 #blog{
   padding-top: 70px;
@@ -1443,7 +1443,7 @@ div >
   width: 24px;
   height: 24px;
   padding-bottom: 300px;
-  margin-left: 55px;
+  margin-left: 18px;
 }
 
 .chevron {
@@ -1820,7 +1820,7 @@ footer > img {
 #logoibabo > img{
   position: relative;
   margin-top: -195px;
-  margin-left: 1220px;
+  margin-left: 1156px;
   margin-bottom: -18px;
   width: 100px;
   height: 100px;
