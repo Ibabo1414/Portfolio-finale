@@ -75,7 +75,6 @@
 .toggler:checked + .hamburger>div:after, .toggler:checked + .hamburger>div:before{
 	 transform: rotate(90deg);
 	 top: 0;
-
 }
 
 .toggler:checked ~ .menu{
@@ -142,13 +141,5 @@
 }
 
 .menu > div > div > ul > li > a:hover{
-	color: #fff;
-	
+	color: #fff;	
 }
-
-
-
-
-
-
-
