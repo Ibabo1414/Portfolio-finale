@@ -1,0 +1,895 @@
+
+/*----------------------mon header---------------------*/
+
+@media screen and (max-width:650px) {
+
+  .content{
+  padding-top: 20rem;
+}
+ .content h1{
+  font-size: 20px;
+}
+.content p{
+  font-size: 1.1rem;
+}
+}
+/*-------------------------je-me-presente--------------*/
+@media screen and (max-width: 824px) {
+#moimeme{
+  height:73em;
+}
+#aproposdemoi{
+  font-size: 17px;
+  margin-bottom: 1em;
+ }
+
+.proposphrase{
+  font-size: 12px;
+}
+
+.qui{ 
+  margin-top: 2em;
+  margin-left : 0.1em;
+  margin-right : 0;
+  padding: 0;
+  max-height : 300em;
+  width: 100%;
+  height: 46em;
+}
+
+.question {
+  margin-left: 6px;
+ text-align: center;
+ margin-top: 30px;
+ padding-top: 14px;
+ font-size: 17px;
+}
+
+.issouimg > img {
+  width: 60%;
+  height:90%;
+  margin-left: 20%;
+  float: none;
+}
+
+.texteyourimendoza {
+  margin : 0% 10% 10% 10%;
+   font-size: 13px;
+}
+
+ .jesuisdevweb{
+  margin-top: 40px;
+}
+}
+
+ @media screen and (min-width: 360px) and (max-width: 620px) {
+
+#aproposdemoi{
+  font-size: 17px;
+  margin-bottom: 1em;
+ }
+
+.proposphrase{
+  font-size: 13px;
+}
+
+div> .qui{ 
+  margin-top: 2em;
+  margin-left : 0.1px;
+  max-height : 300em;
+  width: 100%;
+  height: 46em;
+}
+
+.question {
+  margin-left: 7px;
+ text-align: center;
+ margin-top: 30px;
+ padding-top: 14px;
+ font-size: 17px;
+}
+
+.issouimg > img {
+  width: 60%;
+  height:90%;
+  margin-left: 20%;
+  float: none;
+}
+
+.texteyourimendoza {
+  margin : 0% 10% 10% 10%;
+   font-size: 13px;
+}
+
+.jesuisdevweb{
+  margin-top: 40px;
+}
+}
+
+ @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+#moimeme{
+  height: 48em;
+}
+
+#aproposdemoi{
+  margin-bottom: 1em;
+  font-size: 17px;
+}
+.proposphrase{
+  font-size: 13px;
+}
+
+.qui{ 
+  margin-top: 3em; 
+  margin-left : 4em; 
+  padding: 60px;
+  max-height : 30em;
+  width: 40em;
+}
+
+.question {
+  margin-left: -18em;
+  margin-top: -2em;
+}
+.issouimg > img {
+  width: 14em;
+  height:20em;
+  float: left;
+  margin-top: 8px;
+  border-left: 1px solid #aaaaaa;
+  margin-left: -0.5em;
+}
+
+.texteyourimendoza {
+  margin : 0% 10% 10% 10%;
+  font-size: 13px;
+  margin-left: 19em;
+  width: 22em;
+}
+
+.jesuisdevweb{
+  margin-top: 2.6em;
+}
+}
+
+ @media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+.qui{ 
+  margin-top: 3em; 
+  margin-left : 10em;
+}
+}
+/*------------------------mes competences--------------------------*/
+
+@media screen and (max-width: 735px) {
+
+#mescompetences {
+  font-size: 16px;
+  margin-bottom: 1em;
+}
+
+.mescoibabo{
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+#front-end{
+margin-top: 2em
+}
+
+.ibaboissoudi{
+  width: 100%;
+  height: 900px;
+}
+
+#allfronandbaymii {
+  margin-top: -45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.frnd{
+  width:13em;
+  margin-left: -0.1px
+}
+
+.bnd{
+  width:13em;
+  margin-top: 50px;
+  margin-left: -0.1px
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+  #allfronandbaymii {
+ margin-left: -2em;
+}
+
+#mescompetences {
+  font-size: 17px;
+  margin-bottom: 1em;
+}
+.mescoibabo{
+  font-size: 13px;
+}
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+#allfronandbaymii {
+ margin-left: -2em;
+}
+}
+/*-------------ma formation-------------------*/
+@media screen and (max-width: 320px) {
+
+#maformation{
+  margin-bottom: 0.7em;
+  font-size: 17px;
+}
+.pmaforma{
+  font-size: 12px;
+}
+
+.timeline ul li {
+  width: 10em;
+}
+
+.timeline ul {
+  left: 42%;
+}
+
+.timeline div .title{
+  font-size: 10px;
+}
+
+.timeline div .info {
+  font-size: 8px;
+}
+}
+
+@media screen and (max-width: 500px) {
+
+.toutmaformation{
+  background-color: #2F4F4F;
+  width: 100%;
+  height: 60em;
+}
+
+.alltime{
+  position: relative;
+  top: 2em;
+  margin-left: -0.1em;
+}
+
+#maformation{
+  margin-bottom: 0.7em;
+  font-size: 17px;
+}
+.pmaforma{
+  font-size: 13px;
+}
+
+.timeline ul li {
+  width: 10em;
+}
+
+.timeline ul {
+  left: 42%;
+}
+
+.timeline div .title{
+  font-size: 10px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.timeline div .info {
+  font-size: 8px;
+  text-align: center;
+}
+}
+
+@media screen and (min-width: 736px) and (max-width: 1000px) {
+
+#maformation{
+margin-bottom: 1em;
+}
+
+.alltime{
+  position: relative;
+  top: -2%;
+  margin-left: -12em;
+}
+.timeline ul li {
+  padding: 14px;
+  width: 40em;
+}
+.timeline div .title{
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+.timeline div .info {
+  font-weight: 300;
+  text-align: center;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+#maformation{
+margin-bottom: 1em;
+}
+
+.alltime{
+  position: relative;
+  top: -2%;
+  margin-left: -13em;
+}
+.timeline ul li {
+  padding: 14px;
+  width: 54em;
+}
+.timeline div .title{
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+.timeline div .info {
+  font-weight: 300;
+  text-align: center;
+}
+}
+/*--------------mes experience--------------- */
+@media screen and (max-width: 500px) {
+#contenteym {
+  height: 130em;
+  width: 100%;
+}
+
+#moncontainer{
+  margin-top: 13em;
+}
+
+.maincontainer{
+  width: 160px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: 2%;
+}
+
+div > img {
+  width: 60%;
+  height: 35%;
+  margin-left: 1px;
+  margin-top: 2px;
+}
+
+#mesexperiences{
+  color: #fff;
+}
+
+.expymii{
+  color: #fff;
+}
+
+.description {
+  font-size: 7px;
+  padding-top: 3em;
+}
+
+.thefront1 h5, .theback h5{
+  padding: 15px;
+  font-size: 10px;
+}
+
+.thefront1 p, .theback p{
+  padding: 10px;
+  font-size: 10px;
+}
+
+.date{
+  margin-top: 2em;
+  font-size: 10px;
+}
+
+.caption{
+  margin-top: -6px;
+  font-size: 10px;
+}
+
+/*-------124---------- */
+#flipper1{
+  position: relative;
+  margin-left: 48%;
+  margin-bottom: 30%;
+  margin-top: 10%;
+}
+
+#flipper2{
+  position: relative;
+  margin-left: 48%;
+  margin-bottom: 30%;
+}
+
+#flipper3{
+  position: relative;
+  margin-left: 48%;
+  margin-bottom: 30%;
+}
+
+#flipper4{
+  position: relative;
+  margin-left: 48%;
+  margin-bottom: 30%;
+}
+
+}
+
+@media screen and (min-width: 750px) and (max-width: 1024px) {
+
+#contenteym {
+  background-color: #C0C0C0;
+  width: 100%;
+  height: 48em;
+}
+#mesexperiences{
+  margin-bottom: 1em;
+}
+
+div > img {
+  width: 70%;
+  height: 37%;
+  margin-left: 7px;
+  margin-top: 2px;
+}
+
+#mesexperiences{
+  font-size: 17px;
+}
+
+.expymii{
+  font-size: 13px;
+}
+
+#moncontainer{
+  margin-top: 13em;
+}
+
+.maincontainer{
+  width: 160px;
+  height: 300px;
+}
+
+.description {
+  font-size: 7px;
+  padding-top: 1em;
+}
+
+.thefront1 h5, .theback h5{
+  padding: 15px;
+  font-size: 10px;
+}
+
+.thefront1 p, .theback p{
+  padding: 10px;
+  font-size: 10px;
+}
+
+.date{
+  margin-top: 2em;
+  font-size: 10px;
+}
+
+.caption{
+  margin-top: -6px;
+  font-size: 10px;
+}
+}
+/*-----------------------mes realisations------------ */
+@media screen and (max-width: 500px) {
+
+#mesrealisations1{
+  padding-top: 3.5em;
+}
+
+.ibreal{
+  position: relative;
+  width: 100%;
+  height: 82em;
+  background-color: #2F4F4F;
+  margin-top: -1em;
+}
+#mesreah {
+  color: #fff;
+  margin-bottom: 1em;
+  font-size: 18px;
+  padding-top: 5em;
+}
+
+.reali{
+  color: #fff;
+ margin-bottom: 1em;
+ font-size: 13px;
+}
+
+.realisations{
+  margin-bottom: 3em;
+  position: relative;
+  left: 18%;
+  width: 130px;
+  height: 130px;
+  transition: 0.3s ease-out;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  border-bottom-right-radius: 60px;
+  border-top-left-radius: 60px;
+  background-color: #fff;
+}
+
+#mesrealisations1{
+  position:relative;
+  width: 90%;
+  display: flex;
+  margin-top: -1em;
+  margin-left: -11%;
+}
+
+#mesrealisations2{
+  position: absolute;
+  width: 90%;
+  display: flex;
+  margin-top: -35em;
+  margin-left: -11%;
+}
+
+.realisations .imagerealisisso img{
+  top: -3px;
+  margin-left: -3px;
+  width: 8em;
+  height: 8em;
+}
+}
+
+@media screen and (min-width: 750px) and (max-width: 1024px) {
+
+#mesrealisations1{
+  padding-top: 3.5em;
+}
+
+.ibreal{
+  position: relative;
+  width: 100%;
+  height: 53em;
+  background-color: #2F4F4F;
+  margin-top: -1em;
+}
+#mesreah {
+  color: #fff;
+  margin-bottom: 0.3em;
+  font-size: 18px;
+  padding-top: 5em;
+}
+
+.reali{
+color: #fff;
+ margin-bottom: 1em;
+ font-size: 13px;
+}
+
+.realisations{
+  margin-bottom: 3em;
+  margin-top: -1em;
+  position: relative;
+  left: 18%;
+  width: 11em;
+  height: 11em;
+  transition: 0.3s ease-out;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  border-bottom-right-radius: 60px;
+  border-top-left-radius: 60px;
+  background-color: #fff;
+}
+
+#mesrealisations1{
+  position:relative;
+  width: 90%;
+  display: flex;
+  margin-top: -1em;
+  margin-left: -11%;
+}
+
+#mesrealisations2{
+  position: absolute;
+  width: 90%;
+  display: flex;
+  margin-top: -20em;
+  margin-left: -11%;
+}
+
+.realisations .imagerealisisso img{
+  top: -3px;
+  margin-left: -5px;
+  width: 11em;
+  height: 11em;
+}
+}
+/*-------------------mes services-------------------- */
+@media screen and (max-width: 700px) {
+
+#messervices{
+  height: 176em;
+  margin-top: -1em;
+}
+div >.section-title{
+  font-size: 17px;
+}
+.servi{
+  font-size: 13px;
+}
+}
+
+@media screen and (max-width:960px) {
+  .service-box{
+    max-width: 45%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .service-box{
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .service-box{
+    max-width: 100%;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+#messervices{
+  height: 102em;
+  margin-top: -1em; 
+}
+.services-container{
+  margin-top: 7em;
+}
+}
+/*-------------------contact------------------- */
+
+@media screen and (min-width: 150px) and (max-width: 600px) {
+
+ #mesrenseignements{ 
+  position: relative;
+  background-color: #C0C0C0;
+  width: 100%;
+  height: 60em;
+  margin-top: -1em;
+}
+
+#contact{
+ font-size: 17px;
+ margin-bottom: 0.2em;
+ color: #fff;
+}
+
+.conta{
+  color: #fff;
+ font-size: 13px;
+}
+
+.contact-form{
+  flex-direction: column;
+}
+.msg textarea {
+  height: 80px;
+}
+.input-fields,
+.msg{
+  width: 100%;
+}
+
+.wrapper{
+  position: absolute;
+  top: 33em;
+  width: 78%;
+  padding: 0 20px;
+  margin-left: 2.4em;
+}
+#useme{
+  display: none;
+}
+
+}
+@media screen and (min-width: 750px) and (max-width: 1024px) {
+
+ #mesrenseignements{ 
+  position: relative;
+  background-color: #C0C0C0;
+  width: 100%;
+  height: 53em;
+  margin-top: -1em;
+}
+
+#contact{
+ margin-bottom: 0.2em;
+ color: #fff;
+}
+
+.conta{
+  color: #fff;
+}
+
+.wrapper{
+  position: absolute;
+  top: 30em;
+  width: 78%;
+  padding: 0 20px;
+  margin-left: 6em;
+}
+
+#useme{
+  display: none;
+}
+}
+/*--------------------mon blog---------------- */
+
+@media screen and (max-width: 768px) {
+  #blog{
+  text-align: center;
+  color:  #FF8C00;
+  font-size: 13px;
+}
+.arrow-1{
+  margin-left: -7.8em;
+  margin-top: -2.7em;
+  width: 170px;
+  height: 170px;
+}
+}
+
+@media screen and (min-width: 812px) and (max-width: 1024px) {
+.en-savoir{
+  background-color: #2F4F4F;
+  width: 100%;
+  height: 22em;
+  margin-top: -30px;
+}
+
+#blog{
+  text-align: center;
+  color:  #FF8C00;
+  font-size: 17px;
+}
+
+.arrow-1{
+  margin-left: -7.8em;
+  margin-top: -2.7em;
+  width: 170px;
+  height: 170px;
+}
+}
+/*-------------mon footer----------------- */
+@media screen and (min-width: 321px) and (max-width: 812px) {
+.contaiym{
+  margin-top: -0.3em;
+  margin-bottom: 0;
+}
+}
+
+@media (max-width: 320px) {
+
+.contaiym{
+  margin-top: -0.3em;
+  margin-bottom: 0;
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 812px) {
+
+footer{
+  background-color: #000;
+  width: 100%;
+  height: 18em;
+}
+
+footer > img {
+  display: none;
+}
+
+#logoibabo > img{
+  display: none;
+}
+
+.contaiym{
+  padding-top: 8em;
+  margin-bottom: 2em;
+}
+
+.contenym{
+  padding: 30px;
+  display: flex;
+}
+
+.fa-github{
+  display: none;
+}
+
+.fa-instagram{
+  display: none;
+}
+
+.fa-google{
+display: none;  
+}
+.fa-linkedin{
+  margin-top: 0;
+}
+
+.fa-facebook{
+  margin-top: 0;
+}
+
+.coordonne{
+  display: flex;
+  font-size: 9px;
+  margin-top: -25px;
+  margin-bottom: 18px;
+}
+.copy{
+  text-align: center;
+  font-size: 8px;
+  color:  #FF8C00;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+
+footer > img {
+  margin-top: 110px;
+  margin-left: 28px;
+  margin-bottom: -40px;
+  width: 70px;
+  height: 70px;
+}
+
+#logoibabo > img{
+  margin-top: -195px;
+  margin-left: 42em;
+  margin-bottom: -18px;
+  width: 70px;
+  height: 70px;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+
+footer > img {
+  margin-top: 110px;
+  margin-left: 28px;
+  margin-bottom: -40px;
+  width: 70px;
+  height: 70px;
+}
+
+#logoibabo > img{
+  margin-top: -195px;
+  margin-left: 58em;
+  margin-bottom: -18px;
+  width: 70px;
+  height: 70px;
+}
+}
+
+
+
