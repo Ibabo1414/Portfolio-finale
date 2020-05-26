@@ -5,13 +5,11 @@
   font-family: "montserrat",sans-serif;
   box-sizing: border-box;
 }
-
 body{
   padding: 0;
   margin: 0;
  font-family: "Roboto", sans-serif;
 }
-
 /*----------------------mon header---------------------*/
 .container{
   padding: 0;
@@ -29,7 +27,6 @@ body{
   text-align: center;
   transition: all 1.4s linear;
   animation: container 1.3s ease-in 1.5s forwards;
-
 }
 
 .container:before{
