@@ -1,473 +1,601 @@
 <!DOCTYPE html>
 <html lang="fr">
-  	<head>
-	    <meta charset="utf-8"/>
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <title>IBABO-ISSOUDI Youri-Mendoza</title>
-	    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	    <link rel="stylesheet" type="text/css" href="style.css">
-	    <link rel="stylesheet" type="text/css" href="menu.css">
-	    <link rel="stylesheet" type="text/css" href="m-f.css">
-	</head>
-	<body>
-	    <nav>
-    		<div class="menu-container">
-    			<input type="checkbox" class="toggler">
-    			<div class="hamburger">
-    				<div></div>
-    				</div>
-    				<div class="menu">
-    				<div>
-    					<div>
-	    					<ul>
-	    						<li><a href="#header">Bienvenue</a></li>
-						    	<li><a href="#aproposdemoi">A propos</a></li>
-						    	<li><a href="#mescompetences">Compétences</a></li>
-						    	<li><a href="#maformation">Formation</a></li>
-						    	<li><a href="#mesexperiences">Expériences</a></li>
-						    	<li><a href="#mesreah">Réalisations</a></li>
-						    	<li><a href="#messervices">Services</a></li>
-						    	<li><a href="#contact">Contact</a></li>
-						    	<li><a href="#blog">Blog</a></li>
-    						</ul>
 
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</nav>
- <!------------------------------------mon header------------------------------------->
-		<header>
-			<div id="header">
-	    	<div class="container">
-			    <div class="issouimg"></div>
-	    		<div class="content">
-	    			<h1>Youri-Mendoza IBABO-ISSOUDI</h1>
-	    			<p>Développeur web et web mobile</p>
-	    		</div>
-	    	</div>
-	    	</div>
-		</header>
-<!-----------------------------------je me presente---------------------------------->
-		<section>
-			<div id="moimeme">
-  				<h1  id="aproposdemoi">A propos de moi</h1>
-  				<p class="proposphrase">À travers ces quelques lignes, vous avez un bref résumé qui répond à la question de savoir qui je suis ?<p>
-  				<div class="border"></div>
-			<div class="qui">
-				<div><h2 class="question">Qui suis-je ?</h2></div>
-				<div class="issouimg">
-					<img src="assets/mendoza.jpg" alt="photo de Youri-Mendoza IBABO-ISSOUDI" class="picture-left">
-				</div>
-			  	<div class="texteyourimendoza">
-			    <p class="jesuisdevweb">Codeur ? Chargé du developpement en informatique ?  Développeur informatique ? Développeur de logiciel ? Informaticien ? Programmeur ? Il en existe autant de nombreux synonymes rélatifs au métier de Développeur web et web mobile. En effet, le Développeur web et web mobile, à l'image du web est un univers vaste. Aussi, pour mieux me définir, je m'appelle IBABO-ISSOUDI Youri-Mendoza. Développeur web et web mobile full stack. Je suis très passionné par les Nouvelles Technologies du Numérique. J'ai un bon sens de l'humour, j'ai le contact facile, j'aime rencontrer de nouvelles personnes. En plus de cela, je suis très optimiste et motivé en ce qui concerne l'avenir. J'apprends vite et j'aime relever de nouveaux challenges.</p>
-			  	</div>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IBABO-ISSOUDI Youri-Mendoza</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="menu.css">
+	<link rel="stylesheet" type="text/css" href="m-f.css">
+	<!--------------- favicon-logo ------------->
+	<link rel="icon" href="assets/logo-youmii.png.png" type="image/png" />
+	<!--------------- fichier manifest.json pour la PWA ------------->
+	<link rel="manifest" href="manifest.json">
+	<!--------------- description de l'auteur ------------->
+	<meta name=author content="Youri-Mendoza IBABO-ISSOUDI">
+    <meta name=description
+          content="YOUMII (Youri-Mendoza IBABO-ISSOUDI)  est un portfolio permettant de me suivre et de me connaître au Gabon et partout.">
+    <meta name=keywords
+          content="Youri-Mendoza IBABO-ISSOUDI, Portfolio, Portfolio Gabon, Apprenant Ecole 241, Ecole 241, OkaCode, Apropos de moi, Mes compétences, Ma formation, Mes expériences, Mes réalisations, Mes services, Mon blog, Contacez moi">
+
+    <meta name=og:title content="Youri-Mendoza IBABO-ISSOUDI">
+    <meta name=og:type content="website">
+    <!--<meta name=og:image content="https://covid-19-infos.netlify.com/assets/img/logo_temp.png"/>-->
+    <meta name=og:url content="https://youri-mendozai-babo-issoudi.netlify.app/">
+    <meta name=og:site_name content="Youri-Mendoza IBABO-ISSOUDI">
+    <meta name=og:description
+          content="Youri-Mendoza IBABO-ISSOUDI est un Développeur Web et Web mobile, apprenant de l'Ecole 241 (promo 2020), que vous pouvez  contactez en cas de besoin pour un service qui rendre dans le cadre de mes compétences au Gabon et partout.">
+    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#ff0000"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161415127-1"></script>-->
+</head>
+
+<body>
+	<nav>
+		<div class="menu-container">
+			<input type="checkbox" class="toggler">
+			<div class="hamburger">
+				<div></div>
 			</div>
-		</section>
-<!---------------------------------mes compétences--------------------------------------->
-		<section>
-			 <div class="ibaboissoudi">
-			 	<h1  id="mescompetences">Mes compétences</h1>
-			 	<p class="mescoibabo"> Durant tout ma formation à l'Ecole 241, j'ai acquis certaines compétences ci-dessous.<p>
-			 	<div class="border"></div>
-			 	<div id="allfronandbaymii">
-				 	<div class="frnd">
-						<div id="front-end">Front-end</div>
-						<div class="cotefymii">
-							<div class="bar uno" data-skill="Maquettage"><span class="comibabo">90%</span></div></div>
-							<div class="cotefymii">
-							    <div class="bar dos" data-skill="Html/Html"><span class="comibabo">90%</span></div></div>
-							<div class="cotefymii">
-							    <div class="bar tres" data-skill="Css/Css3"><span class="comibabo">85%</span></div></div>
-							<div class="cotefymii">
-							    <div class="bar cuatro" data-skill="JavaScript"><span class="comibabo">80%</span></div></div>
-							<div class="cotefymii">
-							<div class="bar cinco" data-skill="CMS"><span class="comibabo">90%</span></div></div>
-						</div>
-					<div class="bnd">
-						<div id="Back-end">Back-end</div>
-						<div class="cotebacymii">
-							<div class="iba seis" data-skill="Base de données"><span class="comyouri">90%</span></div></div>
-							<div class="cotefymii">
-							    <div class="iba siete" data-skill="Programmation coté serveur"><span class="comyouri">70%</span></div></div>
-							<div class="cotefymii">
-							    <div class="iba ocho" data-skill="Back office"><span class="comyouri">80%</span></div></div>
-							<div class="cotefymii">
-							    <div class="iba nueve" data-skill="Programmer un CMS"><span class="comyouri">90%</span></div></div>
-							<div class="cotefymii">
-							<div class="iba diez" data-skill="GanttProject"><span class="comyouri">90%</span></div></div>
-  						</div>
-  					</div>
-		</section>
-<!-------------------------------------------ma formation---------------------------------->
-		<section>
-				<div class="toutmaformation">
-					<h1  id="maformation">Ma formation</h1>
-		            <p class="pmaforma">Ci-dessous vous avez un schéma qui résume l'ensemble de mon cursus scolaire.<p>
-		            <div class="border"></div>
-		            <div class="alltime">
-		            	<div class="timeline">
-			              <ul>
-			              	<li>
-			                    <span></span>
-			                    <div>
-				                    <div class="title">Apprenant à l'Ecole 241 (2020)</div>
-				                    <div class="info">validation du certificat en cours</div>
-			                    </div>
-			                    <span class="number">
-			                      <span>2021</span>
-			                      <span>2020</span>
-			                    </span>
-			               	</li>
+			<div class="menu">
+				<div>
+					<div>
+						<ul>
+							<li><a href="#header">Bienvenue</a></li>
+							<li><a href="#aproposdemoi">A propos</a></li>
+							<li><a href="#mescompetences">Compétences</a></li>
+							<li><a href="#maformation">Formation</a></li>
+							<li><a href="#mesexperiences">Expériences</a></li>
+							<li><a href="#mesreah">Réalisations</a></li>
+							<li><a href="#messervices">Services</a></li>
+							<li><a href="#contact">Contact</a></li>
+							<li><a href="#blog">Blog</a></li>
+						</ul>
 
-			              	<li>
-			                 	<div>
-				                   <span></span>
-				                   <div class="title">Certificat HTML/HTML5</div>
-				                   <div class="info">Obtention d'un certificat HTML</div>
-			                  	</div>
-			                  	<span class="number">
-				                   <span>2021</span>
-				                   <span>2020</span>
-			                  	</span>
-			              	</li>
-
-				            <li>
-				                <div>
-			                    	<span></span>
-			                    	<div class="title">Licence Professionnelle</div>
-			                    	<div class="info">Obtention d'une licence professionelle Assistant Manager (IUSO)</div>
-				                </div>
-				                <span class="number">
-				                    <span>2019</span>
-				                    <span>2018</span>
-				                </span>
-				            </li>
-
-				            <li>
-			                  	<span></span>
-			                  	<div>
-				                    <div class="title">Baccalauréat B</div>
-				                    <div class="info">Obtention du baccalauréat d'Enseignement général (L.J.S.M)</div>                    
-			                 	</div>
-			                  	<span class="number">
-				                    <span>2015</span>
-				                    <span>2014</span>
-			                  	</span>
-				            </li>
-				        </ul>
-				      </div>
+					</div>
 				</div>
-		</section>
-<!------------------------------mes experiences----------------------------->
-				<div id="contenteym">
-				  <h1  id="mesexperiences">Mes expériences</h1>
-		          <p class="expymii">Duran toute mon apprentissage non seulement scolaire, universitaire, mais aussi mes differentes expériences en entreprise, j'ai acquis un certain savoir-faire et un savoir-être, qui me permettent aujourd'hui de pouvoir accomplire parfaitement certaines tâches et activités qui me seront confiés.<p>
-		          <div class="border"></div>
+			</div>
+		</div>
+	</nav>
+	<!------------------------------------mon header------------------------------------->
+	<header>
+		<div id="header">
+			<div class="container">
+				<div class="issouimg"></div>
+				<div class="content">
+					<h1>Youri-Mendoza IBABO-ISSOUDI</h1>
+					<p>Développeur web et web mobile</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-----------------------------------je me presente---------------------------------->
+	<section>
+		<div id="moimeme">
+			<h1 id="aproposdemoi">A propos de moi</h1>
+			<p class="proposphrase">À travers ces quelques lignes, vous avez un bref résumé qui répond à la question de
+				savoir qui je suis ?<p>
+					<div class="border"></div>
+					<div class="qui">
+						<div>
+							<h2 class="question">Qui suis-je ?</h2>
+						</div>
+						<div class="issouimg">
+							<img src="assets/mendoza.jpg" alt="photo de Youri-Mendoza IBABO-ISSOUDI"
+								class="picture-left">
+						</div>
+						<div class="texteyourimendoza">
+							<p class="jesuisdevweb">Codeur ? Chargé du developpement en informatique ? Développeur
+								informatique ? Développeur de logiciel ? Informaticien ? Programmeur ? Il en existe
+								autant de nombreux synonymes rélatifs au métier de Développeur web et web mobile. En
+								effet, le Développeur web et web mobile, à l'image du web est un univers vaste. Aussi,
+								pour mieux me définir, je m'appelle IBABO-ISSOUDI Youri-Mendoza. Développeur web et web
+								mobile full stack. Je suis très passionné par les Nouvelles Technologies du Numérique.
+								J'ai un bon sens de l'humour, j'ai le contact facile, j'aime rencontrer de nouvelles
+								personnes. En plus de cela, je suis très optimiste et motivé en ce qui concerne
+								l'avenir. J'apprends vite et j'aime relever de nouveaux challenges.</p>
+						</div>
+					</div>
+	</section>
+	<!---------------------------------mes compétences--------------------------------------->
+	<section>
+		<div class="ibaboissoudi">
+			<h1 id="mescompetences">Mes compétences</h1>
+			<p class="mescoibabo"> Durant tout ma formation à l'Ecole 241, j'ai acquis certaines compétences ci-dessous.
+				<p>
+					<div class="border"></div>
+					<div id="allfronandbaymii">
+						<div class="frnd">
+							<div id="front-end">Front-end</div>
+							<div class="cotefymii">
+								<div class="bar uno" data-skill="Maquettage"><span class="comibabo">90%</span></div>
+							</div>
+							<div class="cotefymii">
+								<div class="bar dos" data-skill="Html/Html"><span class="comibabo">90%</span></div>
+							</div>
+							<div class="cotefymii">
+								<div class="bar tres" data-skill="Css/Css3"><span class="comibabo">85%</span></div>
+							</div>
+							<div class="cotefymii">
+								<div class="bar cuatro" data-skill="JavaScript"><span class="comibabo">80%</span></div>
+							</div>
+							<div class="cotefymii">
+								<div class="bar cinco" data-skill="CMS"><span class="comibabo">90%</span></div>
+							</div>
+						</div>
+						<div class="bnd">
+							<div id="Back-end">Back-end</div>
+							<div class="cotebacymii">
+								<div class="iba seis" data-skill="Base de données"><span class="comyouri">90%</span>
+								</div>
+							</div>
+							<div class="cotefymii">
+								<div class="iba siete" data-skill="Programmation coté serveur"><span
+										class="comyouri">70%</span></div>
+							</div>
+							<div class="cotefymii">
+								<div class="iba ocho" data-skill="Back office"><span class="comyouri">80%</span></div>
+							</div>
+							<div class="cotefymii">
+								<div class="iba nueve" data-skill="Programmer un CMS"><span class="comyouri">90%</span>
+								</div>
+							</div>
+							<div class="cotefymii">
+								<div class="iba diez" data-skill="GanttProject"><span class="comyouri">90%</span></div>
+							</div>
+						</div>
+					</div>
+	</section>
+	<!-------------------------------------------ma formation---------------------------------->
+	<section>
+		<div class="toutmaformation">
+			<h1 id="maformation">Ma formation</h1>
+			<p class="pmaforma">Ci-dessous vous avez un schéma qui résume l'ensemble de mon cursus scolaire.<p>
+					<div class="border"></div>
+					<div class="alltime">
+						<div class="timeline">
+							<ul>
+								<li>
+									<span></span>
+									<div>
+										<div class="title">Apprenant à l'Ecole 241 (2020)</div>
+										<div class="info">validation du certificat en cours</div>
+									</div>
+									<span class="number">
+										<span>2021</span>
+										<span>2020</span>
+									</span>
+								</li>
+
+								<li>
+									<div>
+										<span></span>
+										<div class="title">Certificat HTML/HTML5</div>
+										<div class="info">Obtention d'un certificat HTML</div>
+									</div>
+									<span class="number">
+										<span>2021</span>
+										<span>2020</span>
+									</span>
+								</li>
+
+								<li>
+									<div>
+										<span></span>
+										<div class="title">Licence Professionnelle</div>
+										<div class="info">Obtention d'une licence professionelle Assistant Manager
+											(IUSO)</div>
+									</div>
+									<span class="number">
+										<span>2019</span>
+										<span>2018</span>
+									</span>
+								</li>
+
+								<li>
+									<span></span>
+									<div>
+										<div class="title">Baccalauréat B</div>
+										<div class="info">Obtention du baccalauréat d'Enseignement général (L.J.S.M)
+										</div>
+									</div>
+									<span class="number">
+										<span>2015</span>
+										<span>2014</span>
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+	</section>
+	<!------------------------------mes experiences----------------------------->
+	<div id="contenteym">
+		<h1 id="mesexperiences">Mes expériences</h1>
+		<p class="expymii">Duran toute mon apprentissage non seulement scolaire, universitaire, mais aussi mes
+			differentes expériences en entreprise, j'ai acquis un certain savoir-faire et un savoir-être, qui me
+			permettent aujourd'hui de pouvoir accomplire parfaitement certaines tâches et activités qui me seront
+			confiés.<p>
+				<div class="border"></div>
 				<div id="moncontainer">
 					<div id="flipper1">
 						<div class="maincontainer">
-					    	<div class="thecard">
-						        <div class="thefront1"><h5>TEFCONNECT</h5>
-						          <p class="caption">(GABON)</p>
-						          <img src="assets/tefconnect.png" alt="tefconnect"></div>
-						     	<div class="theback1">
-						          <h5>Tony Elumelu Fondation</h5>
-						          <p class="date">2020-2021</p>
-						          <p class="description">Le TEFCONNECT est un programme entreprennariale organisé par la fondation Tony Elumelu sur tout le continent africain. Et, pour cette 2ème éditon du programme au Gabon, j'ai également participé à cette compétition avec notamment un projet qui me tient à coeur depuis 2 ans.</p>
-					      		</div>
-					    	</div>
+							<div class="thecard">
+								<div class="thefront1">
+									<h5>TEFCONNECT</h5>
+									<p class="caption">(GABON)</p>
+									<img src="assets/tefconnect.png" alt="tefconnect">
+								</div>
+								<div class="theback1">
+									<h5>Tony Elumelu Fondation</h5>
+									<p class="date">2020-2021</p>
+									<p class="description">Le TEFCONNECT est un programme entreprennariale organisé par
+										la fondation Tony Elumelu sur tout le continent africain. Et, pour cette 2ème
+										éditon du programme au Gabon, j'ai également participé à cette compétition avec
+										notamment un projet qui me tient à coeur depuis 2 ans.</p>
+								</div>
+							</div>
 						</div>
 					</div>
 
-					  <div id="flipper2">
-					    <div class="maincontainer">
-					      <div class="thecard">
-					        <div class="thefront1"><h5>BRANDING CHALLENGE</h5>
-					        <p class="caption">(ECOLE 241)</p>
-					        <img src="assets/branding.jpg" alt="branding-challenge"></div>
-					        <div class="theback1"><h5>Digitech Africa</h5>
-					        <p class="date">2018-2019</p>
-					        <p class="description">Le branding challenge est un événement qui a été organisé par l'Ecole 241. Il s'est déroulé pendand 48h et mettant en scène plusieurs équipes dont la notre (La Team Des Four) pour proposer une charte graphique pour un produit donné.</p></div>
-					      </div>
-					    </div>
-					  </div>
+					<div id="flipper2">
+						<div class="maincontainer">
+							<div class="thecard">
+								<div class="thefront1">
+									<h5>BRANDING CHALLENGE</h5>
+									<p class="caption">(ECOLE 241)</p>
+									<img src="assets/branding.jpg" alt="branding-challenge">
+								</div>
+								<div class="theback1">
+									<h5>Digitech Africa</h5>
+									<p class="date">2018-2019</p>
+									<p class="description">Le branding challenge est un événement qui a été organisé par
+										l'Ecole 241. Il s'est déroulé pendand 48h et mettant en scène plusieurs équipes
+										dont la notre (La Team Des Four) pour proposer une charte graphique pour un
+										produit donné.</p>
+								</div>
+							</div>
+						</div>
+					</div>
 
-					  <div id="flipper3">
-					    <div class="maincontainer">
-					      <div class="thecard">
-					        <div class="thefront1"><h5>PROJET SNIS</h5>
-					        <p class="caption">(Ministère de la Santé)</p>
-					        <img src="assets/sante.png" alt="Ministère-de-la-santé"></div>
-					        <div class="theback1"><h5>Stagiaire, chargé du suivi-évaluation</h5>
-					        <p class="date">2018-2019</p>
-					        <p class="description">Le projet de renforcement du Système National d'Information Sanitaire (SNIS) du Gabon est un projet qui bénéficit de l'appui du Gabon et de la Banque MOndiale pour la période 2017-2022. Ce projet gouvernemental vise principale non seulement l'amélioration de la santé de la population gabonaise mais aussi les objectifs, appélé "Espace Numérique de Santé du Gabon". En d'autres termes, il s'agit d'utiliser le numérique pour transformer le secteur de la santé au Gabon. Par ailleurs, stagiaire au sein de l'Équipe Projet SNIS au Ministère de la Santé, j'était principalement chargé de faire l'évaluation à mi-chemin du projet SNIS pour la prémière phase (2017-2018).</p></div>
-					      </div>
-					    </div>
-					  </div>
+					<div id="flipper3">
+						<div class="maincontainer">
+							<div class="thecard">
+								<div class="thefront1">
+									<h5>PROJET SNIS</h5>
+									<p class="caption">(Ministère de la Santé)</p>
+									<img src="assets/sante.png" alt="Ministère-de-la-santé">
+								</div>
+								<div class="theback1">
+									<h5>Stagiaire, chargé du suivi-évaluation</h5>
+									<p class="date">2018-2019</p>
+									<p class="description">Le projet de renforcement du Système National d'Information
+										Sanitaire (SNIS) du Gabon est un projet qui bénéficit de l'appui du Gabon et de
+										la Banque MOndiale pour la période 2017-2022. Ce projet gouvernemental vise
+										principale non seulement l'amélioration de la santé de la population gabonaise
+										mais aussi les objectifs, appélé "Espace Numérique de Santé du Gabon". En
+										d'autres termes, il s'agit d'utiliser le numérique pour transformer le secteur
+										de la santé au Gabon. Par ailleurs, stagiaire au sein de l'Équipe Projet SNIS au
+										Ministère de la Santé, j'était principalement chargé de faire l'évaluation à
+										mi-chemin du projet SNIS pour la prémière phase (2017-2018).</p>
+								</div>
+							</div>
+						</div>
+					</div>
 
-					  <div id="flipper4">
-					    <div class="maincontainer">
-					      <div class="thecard">
-					        <div class="thefront1"><h5>HÔTEL TAMBA NA-NGONDET</h5>
-					        <img src="assets/hotel1.jpeg" alt="hotel"></div>
-					        <div class="theback1"><h5>Gérant, chargé de la clientèle</h5>
-					        <p class="date">2015-2016</p>
-					        <p class="description"> L'hôtel TAMBA NA-NGONDET est une structure hôtélière basé dans la province de l'Ogooué-Lolo (Koulamoutou) disposant de 9 chambres (4 simples et 5 de luxes), 1 appartements, 1 duplex de luxe et 1 restaurant-bar. En ce qui concerne mon passage au sein de cette structure, j'avais lancé des travaux de rhéabilitation et d'aménagement  de toutes les chambres, appartement, duplex et du restaurant-bar durant 1 mois.</p></div>
-					      </div>
-					    </div>
-					  </div>
-					  </div>
-				</div>
-<!----------------------------------------------------mes réalisations---------------------------->
-			<section>
-				<div class="ibreal">
-				 <h1 id="mesreah">Mes réalisations</h1>
-		          <p class="reali">Ici, vous avez l'ensemble de mes différentes réalisations durant toute ma formation à l'Ecole 241.<p>
-		          	<div class="border"></div>
-<!--------------------------première partie de mes réalisations----------------------------------->
-		          	<div class="reatablette">
-		          	<div id="mesrealisations1">
-		          		<div class="realisations">
-		          			<div class="imagerealisisso">
-		          				<img src="assets/media.PNG" alt="mes differents médias">
-		          			</div>
-		          			<div class="texterealis">
-		         				<p class="listedep">Mes médias</p>
-		          				<p class="texp">S'agissant de cette partie, vous avez l'ensemble de mes multimédias que j'ai réalisé avec du HTML et CSS.</p>
-								<div class="realbut"><a href="https://ibabo1414.github.io/MEDIA/">Médias</a></div>
-		          			</div>
-		          		</div>
-
-		          		<div class="realisations">
-		          			<div class="imagerealisisso">
-		          				<img src="assets/formulaire.PNG" alt="mon premier formulaire d'inscription-V1">
-		          			</div>
-		          			<div class="texterealis">
-		          				<p class="listedep">formulaire-V1</p>
-		          				<p class="texp">Celui-ci est mon tout premier formulaire. Il a été réalisé aussi avec du HTML et CSS</p>
-		          				<div class="realbut"><a href="https://ibabo1414.github.io/FORM/">Form</a></div>
-		          			</div>
-		          		</div>
-
-		          		<div class="realisations">
-		          			<div class="imagerealisisso">
-		          				<img src="assets/meteojob.png" alt="mon deuxième formulaire d'inscription-V2">
-		          			</div>
-		          			<div class="texterealis">
-		          				<p class="listedep">meteojob-v2</p>
-		          				<p class="texp">Meteojob fait également partie de l'une de mes conceptions. Il était simplement question d'imiter le formulaire d'origine avec du HTML et CSS.</p>
-		          				<div class="realbut"><a href="https://ibabo1414.github.io/meteojob-ii/">Meteojob</a></div>
-		          			</div>
-		          			</div>
+					<div id="flipper4">
+						<div class="maincontainer">
+							<div class="thecard">
+								<div class="thefront1">
+									<h5>HÔTEL TAMBA NA-NGONDET</h5>
+									<img src="assets/hotel1.jpeg" alt="hotel">
+								</div>
+								<div class="theback1">
+									<h5>Gérant, chargé de la clientèle</h5>
+									<p class="date">2015-2016</p>
+									<p class="description"> L'hôtel TAMBA NA-NGONDET est une structure hôtélière basé
+										dans la province de l'Ogooué-Lolo (Koulamoutou) disposant de 9 chambres (4
+										simples et 5 de luxes), 1 appartements, 1 duplex de luxe et 1 restaurant-bar. En
+										ce qui concerne mon passage au sein de cette structure, j'avais lancé des
+										travaux de rhéabilitation et d'aménagement de toutes les chambres, appartement,
+										duplex et du restaurant-bar durant 1 mois.</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-<!-----------------------deuxième partie de mes réalisations----------------------------->
+	</div>
+	<!----------------------------------------------------mes réalisations---------------------------->
+	<section>
+		<div class="ibreal">
+			<h1 id="mesreah">Mes réalisations</h1>
+			<p class="reali">Ici, vous avez l'ensemble de mes différentes réalisations durant toute ma formation à
+				l'Ecole 241.<p>
+					<div class="border"></div>
+					<!--------------------------première partie de mes réalisations----------------------------------->
 					<div class="reatablette">
-		          	<div id="mesrealisations2">
-		          		<div class="realisations">
-		          			<div class="imagerealisisso">
-		          				<img src="assets/tableau.PNG" alt="Calendrier d'activités">
-		          			</div>
-		          			<div class="texterealis">
-		          				<p class="listedep">Planning</p>
-								<p class="texp">Vous avez ici l'une de mes réalisation avec du HTML et CSS: le calendrier d'activité.</p>
-								<div class="realbut"><a href="https://ibabo1414.github.io/TABLEAU/">Planning</a></div>
-		          			</div>
-		          		</div>
+						<div id="mesrealisations1">
+							<div class="realisations">
+								<div class="imagerealisisso">
+									<img src="assets/media.PNG" alt="mes differents médias">
+								</div>
+								<div class="texterealis">
+									<p class="listedep">Mes médias</p>
+									<p class="texp">S'agissant de cette partie, vous avez l'ensemble de mes multimédias
+										que j'ai réalisé avec du HTML et CSS.</p>
+									<div class="realbut"><a href="https://ibabo1414.github.io/MEDIA/">Médias</a></div>
+								</div>
+							</div>
 
-		          		<div class="realisations">
-		          			<div class="imagerealisisso">
-		          				<img src="assets/liste de presence.PNG" alt="ma list de présence">
-		          			</div>
-		          			<div class="texterealis">
-		          				<p class="listedep">Liste de présence</p>
-		          				<p class="texp">Durant notre formation à l'Ecole 241, j'ai pu concevoir cette liste de présence avec uniquement du HTML et CSS.</p>
-		          				<div class="realbut"><a href="https://ibabo1414.github.io/liste-de-presence/">Liste</a></div>
-		          			</div>
-		          		</div>
+							<div class="realisations">
+								<div class="imagerealisisso">
+									<img src="assets/formulaire.PNG" alt="mon premier formulaire d'inscription-V1">
+								</div>
+								<div class="texterealis">
+									<p class="listedep">formulaire-V1</p>
+									<p class="texp">Celui-ci est mon tout premier formulaire. Il a été réalisé aussi
+										avec du HTML et CSS</p>
+									<div class="realbut"><a href="https://ibabo1414.github.io/FORM/">Form</a></div>
+								</div>
+							</div>
 
-		          		<div class="realisations">
-		          			<div class="imagerealisisso">
-		          				<img src="assets/CV.png" alt="ma prémièrepage web - CV">
-		          			</div>
-		          			<div class="texterealis">
-		          				<p class="listedep">my first CV</p>
-		          				<p class="texp">Ici, vous avez mon premier C.V, réalisé pendant les test en ligne pour intégrer l'Ecole 241 avec notamment du HTML et CSS.</p>
-		          				<div class="realbut"><a href="https://ibabo1414.github.io/CV-facile-avec-Youri-Mendoza-IBABO-ISSOUDI/">CV-1</a></div>
-		          			</div>
-		          			</div>
-		          			</div>
-		          		</div>
-		        	</div>
-		    	</div>
-		</section>
-<!----------------------------mes services------------------------------------->
-		<section>
-			<div id="messervices">	          
-				<div class="services-section">
-					<div class="inner-width">
-			        <h1 class="section-title">Mes services</h1>
-			        <p class="servi">À travers ces quelques blocs, vous avez un ensemble des services que j'offres.<p>
-			        <div class="border"></div>
+							<div class="realisations">
+								<div class="imagerealisisso">
+									<img src="assets/meteojob.png" alt="mon deuxième formulaire d'inscription-V2">
+								</div>
+								<div class="texterealis">
+									<p class="listedep">meteojob-v2</p>
+									<p class="texp">Meteojob fait également partie de l'une de mes conceptions. Il était
+										simplement question d'imiter le formulaire d'origine avec du HTML et CSS.</p>
+									<div class="realbut"><a href="https://ibabo1414.github.io/meteojob-ii/">Meteojob</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+		</div>
+		<!-----------------------deuxième partie de mes réalisations----------------------------->
+		<div class="reatablette">
+			<div id="mesrealisations2">
+				<div class="realisations">
+					<div class="imagerealisisso">
+						<img src="assets/tableau.PNG" alt="Calendrier d'activités">
+					</div>
+					<div class="texterealis">
+						<p class="listedep">Planning</p>
+						<p class="texp">Vous avez ici l'une de mes réalisation avec du HTML et CSS: le calendrier
+							d'activité.</p>
+						<div class="realbut"><a href="https://ibabo1414.github.io/TABLEAU/">Planning</a></div>
+					</div>
+				</div>
 
-			        <div class="services-container">
-			        	<div class="service-box">
-				            <div class="service-icon">
-				            	<i class="fa fa-book"></i>
-				            </div>
-				            <div class="service-title">Cahier des charges</div>
-				            <div class="service-desc">
-				              Comme tout projet, il est important de délimiter l'ensemble des contour qui seront réalisés. C'est pourquoi, le cahier des charges est indispensable. De ce fait, et de par ma polyvalence, je suis capable de vous concevoir un cahier des charges de bout en bout.
-				            </div>
-			        	</div>
+				<div class="realisations">
+					<div class="imagerealisisso">
+						<img src="assets/liste de presence.PNG" alt="ma list de présence">
+					</div>
+					<div class="texterealis">
+						<p class="listedep">Liste de présence</p>
+						<p class="texp">Durant notre formation à l'Ecole 241, j'ai pu concevoir cette liste de présence
+							avec uniquement du HTML et CSS.</p>
+						<div class="realbut"><a href="https://ibabo1414.github.io/liste-de-presence/">Liste</a></div>
+					</div>
+				</div>
 
-			          	<div class="service-box">
-				            <div class="service-icon">
-				              <i class="fa fa-tasks"></i>
-				            </div>
-				            <div class="service-title">Maquettage</div>
-				            <div class="service-desc">
-				              Le maquettage fait partie des étapes les plus importantes dans la création d'un site web ou d'une application mobile. Il permet notamment de répresenter de manière graphique les interfaces que nous allons concevoir grâce aux besoins souligné par le client dans le cahier des charges. Alors, je suis capable de vous réaliser une modélisation de votre site web et/ou web mobile que se soit du zoning en passant par le wireframe à la maquette graphique.
-				            </div>
-			          	</div>
-
-			          <div class="service-box">
-				            <div class="service-icon">
-				              <i class="fa fa-tachometer"></i>
-				            </div>
-				            <div class="service-title">Création de logo</div>
-				            <div class="service-desc">
-				              Tout au long de ma formation à l'Ecole 241, j'ai été emmené à concevoir des logos pour tierces personnes ou des entreprises, fort de cette expérience enrichissante, je peut vous réaliser un logo.
-				            </div>
-			          	</div>
-
-			          	<div class="service-box">
-				            <div class="service-icon">
-				              <i class="fa fa-code"></i>
-				            </div>
-				            <div class="service-title">Web development</div>
-				            <div class="service-desc">
-				              En ce qui concerne le développement, je suis capable grâce à mes compétences vous concevoir entièrement un site web et/ou web mobile avec notamment des technologies tels que HTML, CSS, JavaScript, PHP etc.
-				            </div>
-			          	</div>
-
-			          <div class="service-box">
-				            <div class="service-icon">
-				              <i class="fa fa-paint-brush"></i>
-				            </div>
-				            <div class="service-title">UX / UI Design</div>
-				            <div class="service-desc">
-				              Avec les compétences que j'ai acquises dans cette spécialité de web designer à l'Ecole 241, le UX / UI design (User eXperience / User Interface : expérience utilisateur et interface utilisateur) me permet d'optimiser et améliorer l'expérience utilisateur votre plate-forme web et/ou web mobile.
-				            </div>
-			          	</div>
-
-			          	<div class="service-box">
-				            <div class="service-icon">
-				              <i class="fa fa-sitemap"></i>
-				            </div>
-				            <div class="service-title">Aide à la création de projet</div>
-				            <div class="service-desc">
-				              S'agissant de la gestion de projet, durant toute ma formation d'abord à l'IUSO en tant qu'Assistant Manager mais aussi à l'Ecole 241 en tant que Développeur, j'ai acquis certaines compétences dans non négligeable dans ce domaine que se soit de la programmation à l'évalution d'un projet.
-				            </div>
-			          	</div>
-
-			           <div class="service-box">
-				           <div class="service-icon">
-				              <i class="fa fa-dollar"></i>
-				            </div>
-				            <div class="service-title">Marketing</div>
-				            <div class="service-desc">
-							 Avec le savoir faire que j'ai acquis à l'Ecole 241, je suis capable non seulement de vous conseiller mais aussi de vous aider à élaborer une stratégie marketing pour pourvoir attirer davantage des clients.
-				            </div>
-			          	</div>
-
-						<div class="service-box">
-				           <div class="service-icon">
-				              <i class="fa fa-laptop"></i>
-				            </div>
-				            <div class="service-title">Refonte de site</div>
-				            <div class="service-desc">
-							 Grâce aux compétences acquises durant toute ma formation à l'Ecole 241, je suis à même de refaire votre site web.
-				          </div>
-			        	</div>
-			      	</div>
-			    </div>
-		  </section>
-<!----------------------------------------contact--------------------------------->
- 		<section>
-			<div id="mesrenseignements">
-				<h1 id="contact">N'hésitez pas, contactez moi</h1>
-		        <p class="conta">Si vous souhaitez avoir plus d'informations à mon sujet écrivez moi...<p>
-		      	<div class="border"></div>
-
-			      	<div class="wrapper">
-				  		<div class="contact-form">
-				  		<div class="input-fields">
-					  		<input id="prenom" type="prenom" class="input" name="prenom" placeholder="Votre prenom (s)" required minlength="4" maxlength="15"/>
-					  		<input id="nom" type="nom" class="input" name="nom" placeholder="Votre nom (s)" required minlength="4" maxlength="15"/>
-					  		<input id="Email" type="Email" class="input" name="Email" placeholder="Votre mail" required minlength="4" maxlength="15"/>
-					  		<input id="number" type="number" class="input" name="number" placeholder="Numéro de téléphone" required minlength="4" maxlength="15"/>
-					  		<input id="subject" type="subject" class="input" name="subject" placeholder="Objet" required minlength="4" maxlength="15"/>
-				  		</div>
-				  		<div class="msg">
-					  		<textarea id="message" name="message" rows="8" cols="37" placeholder="Laissez votre message ici..."></textarea>
-					  			<input type="submit" value="Envoyer" class="btn" />
-				  		</div>
-			      		</div>
-			        </div>
-
-		          	<div id="useme">
-		          		<div id="appelemoi">
-		          			<div class="phonemail-info">
-								<div class="mesnumeros">
-						        	<i class="mesnumeros-icon fa fa-envelope"></i>
-						        	<p>iyourimendoza@gmail.com</p>
-						      	</div>
-						      	<div class="mesnumeros">
-						        	<i class="mesnumeros-icon fa fa-phone"></i>
-						        	<p>+24177762556</p>
-						      	</div>
-						      	<div class="mesnumeros">
-						      		<i class=" mesnumeros-icon fa fa-map-marker"></i>
-						        	<p>Libreville, GABON</p>
-						      	</div>
-						    </div>
-		          		</div>
-		          	</div>
-		</section>
-<!-----------------------------------en savoir plus sur moi-------------------------->
-		<section>
-			<div class="en-savoir">
-			  	<h1 id="blog">VOULEZ-VOUS EN SAVOIR PLUS SUR MOI ?</h1>
-				<div class="arrow-container animated fadeInDown">
-				  	<div class="arrow-2">
-				 	<a href="#">Mon blog</a>
-				  	<div class="arrow-1 animated hinge infinite zoomIn"></div>
+				<div class="realisations">
+					<div class="imagerealisisso">
+						<img src="assets/CV.png" alt="ma prémièrepage web - CV">
+					</div>
+					<div class="texterealis">
+						<p class="listedep">my first CV</p>
+						<p class="texp">Ici, vous avez mon premier C.V, réalisé pendant les test en ligne pour intégrer
+							l'Ecole 241 avec notamment du HTML et CSS.</p>
+						<div class="realbut"><a
+								href="https://ibabo1414.github.io/CV-facile-avec-Youri-Mendoza-IBABO-ISSOUDI/">CV-1</a>
+						</div>
+					</div>
 				</div>
 			</div>
+		</div>
+		</div>
+		</div>
+	</section>
+	<!----------------------------mes services------------------------------------->
+	<section>
+		<div id="messervices">
+			<div class="services-section">
+				<div class="inner-width">
+					<h1 class="section-title">Mes services</h1>
+					<p class="servi">À travers ces quelques blocs, vous avez un ensemble des services que j'offres.<p>
+							<div class="border"></div>
+
+							<div class="services-container">
+								<div class="service-box">
+									<div class="service-icon">
+										<i class="fa fa-book"></i>
+									</div>
+									<div class="service-title">Cahier des charges</div>
+									<div class="service-desc">
+										Comme tout projet, il est important de délimiter l'ensemble des contour qui
+										seront réalisés. C'est pourquoi, le cahier des charges est indispensable. De ce
+										fait, et de par ma polyvalence, je suis capable de vous concevoir un cahier des
+										charges de bout en bout.
+									</div>
+								</div>
+
+								<div class="service-box">
+									<div class="service-icon">
+										<i class="fa fa-tasks"></i>
+									</div>
+									<div class="service-title">Maquettage</div>
+									<div class="service-desc">
+										Le maquettage fait partie des étapes les plus importantes dans la création d'un
+										site web ou d'une application mobile. Il permet notamment de répresenter de
+										manière graphique les interfaces que nous allons concevoir grâce aux besoins
+										souligné par le client dans le cahier des charges. Alors, je suis capable de
+										vous réaliser une modélisation de votre site web et/ou web mobile que se soit du
+										zoning en passant par le wireframe à la maquette graphique.
+									</div>
+								</div>
+
+								<div class="service-box">
+									<div class="service-icon">
+										<i class="fa fa-tachometer"></i>
+									</div>
+									<div class="service-title">Création de logo</div>
+									<div class="service-desc">
+										Tout au long de ma formation à l'Ecole 241, j'ai été emmené à concevoir des
+										logos pour tierces personnes ou des entreprises, fort de cette expérience
+										enrichissante, je peut vous réaliser un logo.
+									</div>
+								</div>
+
+								<div class="service-box">
+									<div class="service-icon">
+										<i class="fa fa-code"></i>
+									</div>
+									<div class="service-title">Web development</div>
+									<div class="service-desc">
+										En ce qui concerne le développement, je suis capable grâce à mes compétences
+										vous concevoir entièrement un site web et/ou web mobile avec notamment des
+										technologies tels que HTML, CSS, JavaScript, PHP etc.
+									</div>
+								</div>
+
+								<div class="service-box">
+									<div class="service-icon">
+										<i class="fa fa-paint-brush"></i>
+									</div>
+									<div class="service-title">UX / UI Design</div>
+									<div class="service-desc">
+										Avec les compétences que j'ai acquises dans cette spécialité de web designer à
+										l'Ecole 241, le UX / UI design (User eXperience / User Interface : expérience
+										utilisateur et interface utilisateur) me permet d'optimiser et améliorer
+										l'expérience utilisateur votre plate-forme web et/ou web mobile.
+									</div>
+								</div>
+
+								<div class="service-box">
+									<div class="service-icon">
+										<i class="fa fa-sitemap"></i>
+									</div>
+									<div class="service-title">Aide à la création de projet</div>
+									<div class="service-desc">
+										S'agissant de la gestion de projet, durant toute ma formation d'abord à l'IUSO
+										en tant qu'Assistant Manager mais aussi à l'Ecole 241 en tant que Développeur,
+										j'ai acquis certaines compétences dans non négligeable dans ce domaine que se
+										soit de la programmation à l'évalution d'un projet.
+									</div>
+								</div>
+
+								<div class="service-box">
+									<div class="service-icon">
+										<i class="fa fa-dollar"></i>
+									</div>
+									<div class="service-title">Marketing</div>
+									<div class="service-desc">
+										Avec le savoir faire que j'ai acquis à l'Ecole 241, je suis capable non
+										seulement de vous conseiller mais aussi de vous aider à élaborer une stratégie
+										marketing pour pourvoir attirer davantage des clients.
+									</div>
+								</div>
+
+								<div class="service-box">
+									<div class="service-icon">
+										<i class="fa fa-laptop"></i>
+									</div>
+									<div class="service-title">Refonte de site</div>
+									<div class="service-desc">
+										Grâce aux compétences acquises durant toute ma formation à l'Ecole 241, je suis
+										à même de refaire votre site web.
+									</div>
+								</div>
+							</div>
+				</div>
+	</section>
+	<!----------------------------------------contact--------------------------------->
+	<section>
+		<div id="mesrenseignements">
+			<h1 id="contact">N'hésitez pas, contactez moi</h1>
+			<p class="conta">Si vous souhaitez avoir plus d'informations à mon sujet écrivez moi...<p>
+					<div class="border"></div>
+
+					<div class="wrapper">
+						<div class="contact-form">
+							<div class="input-fields">
+								<input id="prenom" type="prenom" class="input" name="prenom"
+									placeholder="Votre prenom (s)" required minlength="4" maxlength="15" />
+								<input id="nom" type="nom" class="input" name="nom" placeholder="Votre nom (s)" required
+									minlength="4" maxlength="15" />
+								<input id="Email" type="Email" class="input" name="Email" placeholder="Votre mail"
+									required minlength="4" maxlength="15" />
+								<input id="number" type="number" class="input" name="number"
+									placeholder="Numéro de téléphone" required minlength="4" maxlength="15" />
+								<input id="subject" type="subject" class="input" name="subject" placeholder="Objet"
+									required minlength="4" maxlength="15" />
+							</div>
+							<div class="msg">
+								<textarea id="message" name="message" rows="8" cols="37"
+									placeholder="Laissez votre message ici..."></textarea>
+								<input type="submit" value="Envoyer" class="btn" />
+							</div>
+						</div>
+					</div>
+
+					<div id="useme">
+						<div id="appelemoi">
+							<div class="phonemail-info">
+								<div class="mesnumeros">
+									<i class="mesnumeros-icon fa fa-envelope"></i>
+									<p>iyourimendoza@gmail.com</p>
+								</div>
+								<div class="mesnumeros">
+									<i class="mesnumeros-icon fa fa-phone"></i>
+									<p>+24177762556</p>
+								</div>
+								<div class="mesnumeros">
+									<i class=" mesnumeros-icon fa fa-map-marker"></i>
+									<p>Libreville, GABON</p>
+								</div>
+							</div>
+						</div>
+					</div>
+	</section>
+	<!-----------------------------------en savoir plus sur moi-------------------------->
+	<section>
+		<div class="en-savoir">
+			<h1 id="blog">VOULEZ-VOUS EN SAVOIR PLUS SUR MOI ?</h1>
+			<div class="arrow-container animated fadeInDown">
+				<div class="arrow-2">
+					<a href="#">Mon blog</a>
+					<div class="arrow-1 animated hinge infinite zoomIn"></div>
+				</div>
+			</div>
+	</section>
+	<!-------------------------------------------en savoir plus sur moi--------------------------------->
+	<footer>
+		<img src="assets/qrcode.png" alt="le_Qrcode_de_Youri-Mendoza_IBABO-ISSOUDI">
+		<div id="logoibabo"><img src="assets/logo.png" alt="le_logo_YMII"></div>
+		<section>
+			<div class="contaiym">
+				<div class="contenym">
+					<a href="https://facebook.com/yourimendoza.ibabo" class="fa fa-facebook"></a>
+					<a href="https://twitter.com/youri_mendoza" class="fa fa-twitter"></a>
+					<a href="https://www.linkedin.com/in/youri-mendoza-ibabo-466785120" class="fa fa-linkedin"></a>
+					<a href="https://www.instagram.com/youri_mendoza/" class="fa fa-instagram"></a>
+					<a href="https://github.com/Ibabo1414" class="fa fa-github"></a>
+					<a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=app" class="fa fa-google"></a>
+				</div>
+			</div>
+			<div><span class="coordonne">iyourimendoza@gmail.com / +24177762556 / +24174779158</span></div>
+			<p class="copy">Copyright 2020 Youri-Mendoza IBABO-ISSOUDI-Toute réproduction interdite</p>
 		</section>
-<!-------------------------------------------en savoir plus sur moi--------------------------------->
-		<footer>
-				<img src="assets/qrcode.png" alt="le_Qrcode_de_Youri-Mendoza_IBABO-ISSOUDI">
-				<div id="logoibabo"><img src="assets/logo.png" alt="le_logo_YMII"></div>
-			<section>
-				<div class="contaiym">
-					<div class="contenym">
-	                    <a href="https://facebook.com/yourimendoza.ibabo" class="fa fa-facebook"></a>
-	                    <a href="https://twitter.com/youri_mendoza" class="fa fa-twitter"></a>
-	                    <a href="https://www.linkedin.com/in/youri-mendoza-ibabo-466785120" class="fa fa-linkedin"></a>
-	                    <a href="https://www.instagram.com/youri_mendoza/" class="fa fa-instagram"></a>
-	                    <a href="https://github.com/Ibabo1414" class="fa fa-github"></a>
-	                    <a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=app" class="fa fa-google"></a>
-                   	</div>
-                </div>
-                <div><span class="coordonne">iyourimendoza@gmail.com / +24177762556 / +24174779158</span></div>
-                <p class="copy">Copyright 2020 Youri-Mendoza IBABO-ISSOUDI-Toute réproduction interdite</p>
-			</section>
-			</footer>
-		</main>
-	</body>
+	</footer>
+	</main>
+</body>
+
 </html>

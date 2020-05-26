@@ -1,0 +1,24 @@
+{
+	"name": "Youri-Mendoza IBABO-ISSOUDI",
+	"short_name": "YOUMII",
+	"description": "Youri-Mendoza IBABO-ISSOUDI est un Développeur Web et Web mobile, apprenant de l'Ecole 241 (promo 2020), que vous pouvez  contactez en cas de besoin pour un service qui rendre dans le cadre de mes compétences au Gabon et partout.",
+	"start_url": "https://youri-mendozai-babo-issoudi.netlify.app/",
+	"display": "standalone",
+	"orientation": "portrait",
+	"lang": "French",
+	"background_color": "#ffffff",
+	"theme_color": "#030946",
+	"scope": "/",
+	"icons": [
+		{
+			"src": "assets/icons/icon-300x300.png",
+			"type": "image/png",
+			"sizes": "300x300"
+		},
+		{
+			"src": "assets/icons/icon-512x512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	]
+}
