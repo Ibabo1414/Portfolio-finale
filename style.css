@@ -27,6 +27,9 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
+  transition: all 1.4s linear;
+  animation: container 1.3s ease-in 1.5s forwards;
+
 }
 
 .container:before{
@@ -48,14 +51,18 @@ body{
 
 .content h1{
   font-size: 40px;
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.4rem;
   color:  #FF8C00;
+  transition: all 1.0s linear;
+  animation: h1 1.5s ease-in 1.5s forwards;
 }
 
 .content p{
   color: #fff;
   font-size: 2.2rem;
-  font-weight: 100;
+  font-weight: 100; 
+  transition: all .6s linear;
+  animation: p 1.5s ease-in 1.5s forwards;
 }
 
 .btn{
@@ -78,6 +85,14 @@ body{
 #moimeme{
   height:1000px;
   background-color: #C0C0C0;
+  transition: all 1.4s linear;
+  animation: moimeme 1.3s ease-in 1.5s forwards;
+
+}
+
+#moimeme:hover {
+  /*transform: rotate(360deg);*/
+    
 }
 
 #aproposdemoi{
@@ -88,6 +103,8 @@ body{
   text-transform: uppercase;
   font-size: 23px;
   font-weight: bold;
+  transition: all 1.4s linear;
+  animation: aproposdemoi 1.3s ease-in 1.5s forwards;
 }
 .proposphrase{
   color: #fff;
@@ -158,6 +175,8 @@ body{
   font-size: 23px;
   font-weight: bold;
   padding-bottom: 1.4em;
+  transition: all 1.4s linear;
+  animation: mescompetences 1.3s ease-in 1.5s forwards;
 }
 
 .mescoibabo{
@@ -180,11 +199,16 @@ body{
 .frnd{
   width: 40%;
   margin-left: 40px;
+  transition: all 1.4s linear;
+  animation: frnd 1.3s ease-in 1.5s forwards;
 }
 
 .bnd{
   width: 40%;
   margin-left: 40px;
+  transition: all 1.4s linear;
+  animation: bnd 1.3s ease-in 1.5s forwards;
+
 }
 
 @keyframes load{
