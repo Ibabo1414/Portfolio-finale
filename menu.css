@@ -71,7 +71,6 @@
  transform: rotate(225deg);
 
 }
-
 .toggler:checked + .hamburger>div:after, .toggler:checked + .hamburger>div:before{
 	 transform: rotate(90deg);
 	 top: 0;
@@ -80,7 +79,6 @@
 .toggler:checked ~ .menu{
 	 visibility: visible;
 }
-
 .toggler:checked ~ .menu > div{
 	 transform: translateX(-50%) transform: translateY(-50%);
 }
@@ -88,7 +86,6 @@
 .toggler:checked ~ .menu > div > div{
 	 opacity: 1;
 }
-
 .menu{
 	 position: fixed;
 	 top: 0;
@@ -98,7 +95,6 @@
 	 visibility: hidden;
 	 transition: .06s;
 }
-
 .menu > div{
 	position: absolute;
 	width: 1600px;
@@ -139,7 +135,6 @@
 	transition: .1s;
 	text-align: center;
 }
-
 .menu > div > div > ul > li > a:hover{
 	color: #fff;	
 }

@@ -524,7 +524,7 @@ body{
 .timeline span.number span:last-child {
   top: 100%;
 }
-/*------------------------------mes expériences----------------------------- */
+/*------------------------------mes expériences---------------------------- */
 #contenteym {
   margin-top: -20px;
   text-align: center;
@@ -812,7 +812,6 @@ div > .description {
   color:  #fff;
 }
 /*----button_hover_animate-cliquez ici------- */
-
 .realbut>a{
   position: absolute;
   top: 80%;
@@ -1184,7 +1183,6 @@ div> #useme{
     opacity: 0;
   }
 }
-
 .zoomIn {
   -webkit-animation-name: zoomIn;
           animation-name: zoomIn;
@@ -1205,7 +1203,6 @@ div> #useme{
   font-size: 10px;
   margin: 0;
 }
-/* Footer links */
 
 .footer-distributed p.footer-links {
   font-size: 18px;
