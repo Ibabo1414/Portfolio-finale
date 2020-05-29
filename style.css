@@ -86,14 +86,8 @@ body{
   animation: moimeme 1.3s ease-in 1.5s forwards;
 
 }
-
-#moimeme:hover {
-  /*transform: rotate(360deg);*/
-    
-}
-
 #aproposdemoi{
-  color: #fff;
+  color:  #FF8C00;
   padding-top: 3em;
   margin-bottom: 1.6em;
   text-align: center;
@@ -130,7 +124,14 @@ body{
   float: left;
   margin-top: 15px;
   margin-left: 4em;
-  border-left: 2px solid #778899;
+  /*border-left: 2px solid #778899;*/
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.issouimg > img:hover{
+  -webkit-transform: scale(1.80);
+  transform: scale(1.80);
 }
 
 .question {
@@ -167,7 +168,7 @@ body{
 #mescompetences {
   padding-top: 89px;
   text-align: center;
-  color: #ddd;
+  color:  #FF8C00;
   text-transform: uppercase;
   font-size: 23px;
   font-weight: bold;
@@ -404,7 +405,7 @@ body{
 #maformation{
   padding: 90px;
   text-align: center;
-  color: #ddd;
+  color:  #FF8C00;
   text-transform: uppercase;
   font-size: 23px;
   font-weight: bold;
@@ -429,7 +430,6 @@ body{
   margin-top: 18em;
   margin-left: -19em;
 }
-
 .timeline ul {
   list-style: none;
   position: absolute;
@@ -455,8 +455,15 @@ body{
   padding: 14px;
   border-radius: 6px;
   width: 67em;
-  box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 2px 2px rgba(0, 0, 0, .08)
+  box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 2px 2px rgba(0, 0, 0, .08);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
 }
+.timeline ul li:hover{
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
 .timeline ul li:not(:first-child) {
   margin-top: 60px;
 }
@@ -529,7 +536,7 @@ body{
 #mesexperiences{
   padding-top: 90px;
   text-align: center;
-  color: #fff;
+  color:  #FF8C00;
   text-transform: uppercase;
   font-size: 23px;
   font-weight: bold;
@@ -542,7 +549,7 @@ body{
   margin-left: 30px;
   margin-right: 30px;
   font-weight: bold;
-  text-align: center;
+  text-align: justify;
 }
 
 #moncontainer{
@@ -641,7 +648,7 @@ div > img {
   margin-top: 20px;
 }
 
-.description {
+div > .description {
   font-size: 11px;
   padding: 0 20px 20px 20px;
   text-align: left;
@@ -674,7 +681,7 @@ div > img {
 
 #mesreah {
   text-align: center;
-  color: #fff;
+  color:  #FF8C00;
   text-transform: uppercase;
   font-size: 23px;
   font-weight: bold;
@@ -874,9 +881,9 @@ div > img {
   width: 100%;
 }
 
-.section-title{
+.section-title > h1{
   text-align: center;
-  color: #ddd;
+  color:  #FF8C00;
   text-transform: uppercase;
   font-size: 23px;
   margin-bottom: 1.5em;
@@ -961,7 +968,7 @@ div > img {
 #contact{
   padding-top: 95px;
   text-align: center;
-  color: #fff;
+  color:  #FF8C00;
   text-transform: uppercase;
   font-size: 23px;
   font-weight: bold;
@@ -1183,202 +1190,78 @@ div> #useme{
           animation-name: zoomIn;
 }
 /*---------------------------------mon footer----------------------- */
-footer{
-  position: absolute;
-  background-color: #000;
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
   width: 100%;
-  height: 300px;
-  margin-bottom: -2%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
 }
 
-.contaiym{
-  margin-top: -200px;
-  display: flex;
-  justify-content: space-between;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-content: space-between;
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 10px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
 }
 
-.contenym{
-  padding: 90px;
-  text-align: center;
-}
-
-.fa-facebook{
-  background-color:  #9370db;
-  color: #fff;
-  padding:20px;
-  width: 18px;
-  height: 18px;
-  padding-bottom: 30px;
-  padding-right: 30px;
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-size: 11px;
   text-decoration: none;
-  border-radius: 50%;
-  border: 2px solid #fff;
-  transition: all .3s;
+  color: inherit;
+  transition: ease .25s;
 }
 
-.fa-facebook:hover{
-  background: #333;
-  border: 2px solid #333;
-  opacity: .9;
-  transform: rotate(360deg);
-  box-shadow: 2px 2px 24px #fff;
-}
-.fa-facebook{
-  margin-right: 12px;
-}
-
-.fa-twitter{
-  background-color:  #9370db;
-  color: #fff;
-  padding:20px;
-  width: 18px;
-  height: 18px;
-  padding-bottom: 30px;
-  padding-right: 30px;
-  text-decoration: none;
-  border-radius: 50%;
-  border: 2px solid #fff;
-  transition: all .3s;
-}
-.fa-twitter:hover{
-  background: #333;
-  border: 2px solid #333;
-  opacity: .9;
-  transform: rotate(360deg);
-  box-shadow: 2px 2px 24px #fff;
-}
-.fa-twitter{
-  margin-right: 12px;
-}
-
-.fa-linkedin{
-  background-color:  #9370db;
-  color: #fff;
-  padding:20px;
-  width: 18px;
-  height: 18px;
-  padding-bottom: 30px;
-  padding-right: 30px;
-  text-decoration: none;
-  border-radius: 50%;
-  border: 2px solid #fff;
-  transition: all .3s;
-}
-.fa-linkedin:hover{
-  background: #333;
-  border: 2px solid #333;
-  opacity: .9;
-  transform: rotate(360deg);
-  box-shadow: 2px 2px 24px #fff;
-}
-.fa-linkedin{
-  margin-right: 12px;
-}
-
-.fa-instagram{
-  background-color:  #9370db;
-  color: #fff;
-  padding:20px;
-  width: 18px;
-  height: 18px;
-  padding-bottom: 30px;
-  padding-right: 30px;
-  text-decoration: none;
-  border-radius: 50%;
-  border: 2px solid #fff;
-  transition: all .3s;
-}
-.fa-instagram:hover{
-  background: #333;
-  border: 2px solid #333;
-  opacity: .9;
-  transform: rotate(360deg);
-  box-shadow: 2px 2px 24px #fff;
-}
-.fa-instagram{
-  margin-right: 12px;
-}
-
-.fa-github{
-  background-color:  #9370db;
-  color: #fff;
-  padding:20px;
-  width: 18px;
-  height: 18px;
-  padding-bottom: 30px;
-  padding-right: 30px;
-  text-decoration: none;
-  border-radius: 50%;
-  border: 2px solid #fff;
-  transition: all .3s;
-}
-
-.fa-github:hover{
-  background: #333;
-  border: 2px solid #333;
-  opacity: .9;
-  transform: rotate(360deg);
-  box-shadow: 2px 2px 24px #fff;
-}
-.fa-github{
-  margin-right: 12px;
-}
-
-.fa-google{
-  background-color:  #9370db;
-  color: #fff;
-  padding:20px;
-  width: 18px;
-  height: 18px;
-  padding-bottom: 30px;
-  padding-right: 30px;
-  text-decoration: none;
-  border-radius: 50%;
-  border: 2px solid #fff;
-  transition: all .3s;
-}
-.fa-google:hover{
-  background: #333;
-  border: 2px solid #333;
-  opacity: .9;
-  transform: rotate(360deg);
-  box-shadow: 2px 2px 24px #fff;
-}
-
-.coordonne{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.footer-distributed .footer-links a:before {
+  content: "·";
   font-size: 15px;
-  color:  #FF8C00;
-  margin-top: -30px;
-  margin-bottom: 70px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
 }
-.copy{
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
   text-align: center;
-  font-size: 12px;
-  color:  #FF8C00;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+  text-decoration: none;
 }
-
-footer > img {
-  position: relative;
-  margin-top: 110px;
-  margin-left: 20px;
-  margin-bottom: -40px;
-  width: 100px;
-  height: 100px;
-  border: 5px solid #9370db;;
+.footer-distributed .footer-right a:hover{
+  transform:scale(1.1); 
+  -webkit-transform:scale(1.1);
 }
-
-#logoibabo > img{
-  position: relative;
-  margin-top: -195px;
-  margin-left: 1156px;
-  margin-bottom: -18px;
-  width: 100px;
-  height: 100px;
-  border: 5px solid #9370db;;
+.footer-distributed p.footer-links a:hover{
+  text-decoration:underline;
 }
