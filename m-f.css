@@ -738,8 +738,8 @@ div >.section-title{
   font-size: 13px;
 }
 .arrow-1{
-  margin-left: -7.8em;
-  margin-top: -2.7em;
+  margin-left: -2.5em;
+  margin-top: -5.6em;
   width: 170px;
   height: 170px;
 }
@@ -765,6 +765,14 @@ div >.section-title{
   width: 170px;
   height: 170px;
 }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+  .arrow-1{
+    margin-left: -2.5em;
+    margin-top: -5.6em;
+    width: 170px;
+    height: 170px;
+  }
 }
 /*-------------mon footer----------------- */
 @media (max-width: 600px) {

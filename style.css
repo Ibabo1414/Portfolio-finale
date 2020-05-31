@@ -1101,8 +1101,8 @@ div> #useme{
 }
 
 .arrow-1{
-  margin-left: -7.8em;
-  margin-top: -2.7em;
+  margin-left: -2.5em;
+  margin-top: -5.6em;
   width: 170px;
   height: 170px;
   background: #fff;
@@ -1112,13 +1112,13 @@ div> #useme{
   animation: pulse 2s linear alternate infinite;
 }
 
-.arrow-2{
+.arrow-2 > a{
   width: 90px;
   height: 90px;
   background: #9370db;
   border-radius: 50%;
   border: 6px solid #fff;
-  position: absolute;
+  position: relative;
   top: 40px;
   left: 1px;
   z-index: 1;
@@ -1259,6 +1259,12 @@ div> #useme{
   transform:scale(1.1); 
   -webkit-transform:scale(1.1);
 }
+.footer-distributed .footer-right a:hover {
+  background: #5e2ced;
+  border-color: #5e2ced;
+color:white;
+}
+
 .footer-distributed p.footer-links a:hover{
   text-decoration:underline;
 }
