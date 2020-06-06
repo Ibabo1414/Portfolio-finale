@@ -6,7 +6,6 @@
   	left: 0;
   	z-index: 2;
 }
-
 .toggler{
 	position: absolute;
 	top: 0.5rem;
@@ -18,7 +17,6 @@
 	z-index: 3;
 	cursor: pointer;
 }
-
 .hamburger{
   position: absolute;
   top: 0.5rem;
@@ -32,7 +30,6 @@
   align-items: center;
   z-index: 2;
 }
-
 .hamburger>div{
   position: absolute;
   width: 60%;
@@ -41,7 +38,6 @@
   background-color: #FF8C00;
   transition: .4s;
 }
-
 .hamburger>div:before, .hamburger>div:after{
   content: '';
   position: absolute;
@@ -51,38 +47,28 @@
   background-color: #FF8C00;
   transition: .4s;
 }
-
 .hamburger>div:before{
  top: -10px;
-
 }
-
 .hamburger>div:after{
  top: 10px;
-
 }
-
 .toggler:checked + .hamburger>div{
  transform: rotate(135deg);
-
 }
-
 .toggler:checked:hover + .hamburger>div{
  transform: rotate(225deg);
-
 }
 .toggler:checked + .hamburger>div:after, .toggler:checked + .hamburger>div:before{
 	 transform: rotate(90deg);
 	 top: 0;
 }
-
 .toggler:checked ~ .menu{
 	 visibility: visible;
 }
 .toggler:checked ~ .menu > div{
 	 transform: translateX(-50%) transform: translateY(-50%);
 }
-
 .toggler:checked ~ .menu > div > div{
 	 opacity: 1;
 }
@@ -109,7 +95,6 @@
 	justify-content: center;
 	align-items: center;
 }
-
 .menu > div > div{
 	max-width: 90vw;
 	max-height: 100vh;
@@ -119,11 +104,9 @@
 	text-align: center;
 	opacity: 0;
 }
-
 .menu > div > div > ul > li{
 	list-style: none;
 }
-
 .menu > div > div > ul > li > a{
 	text-decoration: none;
 	margin: .5rem;

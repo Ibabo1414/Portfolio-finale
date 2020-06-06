@@ -10,33 +10,35 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="menu.css">
 	<link rel="stylesheet" type="text/css" href="m-f.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
 	<nav>
-		<div class="menu-container">
-			<input type="checkbox" class="toggler">
-			<div class="hamburger">
-				<div></div>
-			</div>
-			<div class="menu">
+		<div class="menu-container" data-aos="fade-down-right"></div>
+		<input type="checkbox" class="toggler">
+		<div class="hamburger">
+			<div></div>
+		</div>
+		<div class="menu">
+			<div>
 				<div>
-					<div>
-						<ul>
-							<li><a href="#header">Bienvenue</a></li>
-							<li><a href="#aproposdemoi">À propos</a></li>
-							<li><a href="#mescompetences">Compétences</a></li>
-							<li><a href="#maformation">Formation</a></li>
-							<li><a href="#mesexperiences">Expériences</a></li>
-							<li><a href="#mesreah">Réalisations</a></li>
-							<li><a href="#messervices">Services</a></li>
-							<li><a href="#contact">Contact</a></li>
-							<li><a href="#blog">Blog</a></li>
-						</ul>
+					<ul>
+						<li><a href="#header">Bienvenue</a></li>
+						<li><a href="#aproposdemoi">À propos</a></li>
+						<li><a href="#mescompetences">Compétences</a></li>
+						<li><a href="#maformation">Formation</a></li>
+						<li><a href="#mesexperiences">Expériences</a></li>
+						<li><a href="#mesreah">Réalisations</a></li>
+						<li><a href="#messervices">Services</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li><a href="#blog">Blog</a></li>
+					</ul>
 
-					</div>
 				</div>
 			</div>
+		</div>
 		</div>
 	</nav>
 	<!------------------------------------mon header------------------------------------->
@@ -45,8 +47,8 @@
 			<div class="container">
 				<div class="issouimg"></div>
 				<div class="content">
-					<h1>Youri-Mendoza IBABO-ISSOUDI</h1>
-					<p>Développeur web et web mobile</p>
+					<h1 class="" data-aos="fade-right">Youri-Mendoza IBABO-ISSOUDI</h1>
+					<p class="" data-aos="fade-left">Développeur web et web mobile</p>
 				</div>
 			</div>
 		</div>
@@ -54,20 +56,22 @@
 	<!-----------------------------------je me presente---------------------------------->
 	<section>
 		<div id="moimeme">
-			<h1 id="aproposdemoi">A propos de moi</h1>
-			<p class="proposphrase">À travers ces quelques lignes, vous avez un bref résumé qui répond à la question de
+			<h1 id="aproposdemoi" data-aos="fade-down-right">A propos de moi</h1>
+			<p class="proposphrase" data-aos="zoom-in-down">À travers ces quelques lignes, vous avez un bref résumé qui
+				répond à la question de
 				savoir qui je suis ?<p>
-					<div class="border"></div>
-					<div class="qui">
+					<div class="border" data-aos="fade-right"></div>
+					<div class="qui" data-aos="fade-up">
 						<div>
-							<h2 class="question">Qui suis-je ?</h2>
+							<h2 class="question" data-aos="fade-right">Qui suis-je ?</h2>
 						</div>
-						<div class="issouimg">
+						<div class="issouimg" data-aos="fade-up">
 							<img src="assets/mendoza.jpg" alt="photo de Youri-Mendoza IBABO-ISSOUDI"
 								class="picture-left">
 						</div>
 						<div class="texteyourimendoza">
-							<p class="jesuisdevweb">Codeur ? Chargé du developpement en informatique ? Développeur
+							<p class="jesuisdevweb" data-aos="fade-right">Codeur ? Chargé du developpement en
+								informatique ? Développeur
 								informatique ? Développeur de logiciel ? Informaticien ? Programmeur ? Il en existe
 								autant de nombreux synonymes rélatifs au métier de Développeur web et web mobile. En
 								effet, le Développeur web et web mobile, à l'image du web est un univers vaste. Aussi,
@@ -82,12 +86,13 @@
 	<!---------------------------------mes compétences--------------------------------------->
 	<section>
 		<div class="ibaboissoudi">
-			<h1 id="mescompetences">Mes compétences</h1>
-			<p class="mescoibabo"> Durant tout ma formation à l'Ecole 241, j'ai acquis certaines compétences ci-dessous.
+			<h1 id="mescompetences" data-aos="fade-right">Mes compétences</h1>
+			<p class="mescoibabo" data-aos="zoom-in-up"> Durant tout ma formation à l'Ecole 241, j'ai acquis certaines
+				compétences ci-dessous.
 				<p>
-					<div class="border"></div>
+					<div class="border" data-aos="fade-right"></div>
 					<div id="allfronandbaymii">
-						<div class="frnd">
+						<div class="frnd" data-aos="fade-up">
 							<div id="front-end">Front-end</div>
 							<div class="cotefymii">
 								<div class="bar uno" data-skill="Maquettage"><span class="comibabo">90%</span></div>
@@ -105,7 +110,7 @@
 								<div class="bar cinco" data-skill="CMS"><span class="comibabo">90%</span></div>
 							</div>
 						</div>
-						<div class="bnd">
+						<div class="bnd" data-aos="fade-right">
 							<div id="Back-end">Back-end</div>
 							<div class="cotebacymii">
 								<div class="iba seis" data-skill="Base de données"><span class="comyouri">90%</span>
@@ -131,19 +136,20 @@
 	<!-------------------------------------------ma formation---------------------------------->
 	<section>
 		<div class="toutmaformation">
-			<h1 id="maformation">Ma formation</h1>
-			<p class="pmaforma">Ci-dessous vous avez un schéma qui résume l'ensemble de mon cursus scolaire.<p>
-					<div class="border"></div>
-					<div class="alltime">
+			<h1 id="maformation" data-aos="fade-right">Ma formation</h1>
+			<p class="pmaforma" data-aos="zoom-in-down">Ci-dessous vous avez un schéma qui résume l'ensemble de mon
+				cursus scolaire.<p>
+					<div class="border" data-aos="fade-right"></div>
+					<div class="alltime" data-aos="zoom-in">
 						<div class="timeline">
 							<ul>
 								<li>
 									<span></span>
 									<div>
-										<div class="title">Apprenant à l'Ecole 241 (2020)</div>
-										<div class="info">validation du certificat en cours</div>
+										<div class="title" data-aos="fade-left">Apprenant à l'Ecole 241 (2020)</div>
+										<div class="info" data-aos="fade-right">validation du certificat en cours</div>
 									</div>
-									<span class="number">
+									<span class="number" data-aos="fade-up">
 										<span>2021</span>
 										<span>2020</span>
 									</span>
@@ -152,10 +158,10 @@
 								<li>
 									<div>
 										<span></span>
-										<div class="title">Certificat HTML/HTML5</div>
-										<div class="info">Obtention d'un certificat HTML</div>
+										<div class="title" data-aos="fade-right">Certificat HTML/HTML5</div>
+										<div class="info" data-aos="fade-left">Obtention d'un certificat HTML</div>
 									</div>
-									<span class="number">
+									<span class="number" data-aos="fade-up">
 										<span>2021</span>
 										<span>2020</span>
 									</span>
@@ -164,11 +170,12 @@
 								<li>
 									<div>
 										<span></span>
-										<div class="title">Licence Professionnelle</div>
-										<div class="info">Obtention d'une licence professionelle Assistant Manager
+										<div class="title" data-aos="fade-zoom-in">Licence Professionnelle</div>
+										<div class="info" data-aos="fade-up">Obtention d'une licence professionelle
+											Assistant Manager
 											(IUSO)</div>
 									</div>
-									<span class="number">
+									<span class="number" data-aos="fade-up">
 										<span>2019</span>
 										<span>2018</span>
 									</span>
@@ -177,11 +184,12 @@
 								<li>
 									<span></span>
 									<div>
-										<div class="title">Baccalauréat B</div>
-										<div class="info">Obtention du baccalauréat d'Enseignement général (L.J.S.M)
+										<div class="title" data-aos="fade-up">Baccalauréat B</div>
+										<div class="info" data-aos="fade-right">Obtention du baccalauréat d'Enseignement
+											général (L.J.S.M)
 										</div>
 									</div>
-									<span class="number">
+									<span class="number" data-aos="fade-up">
 										<span>2015</span>
 										<span>2014</span>
 									</span>
@@ -192,14 +200,16 @@
 	</section>
 	<!------------------------------mes experiences----------------------------->
 	<div id="contenteym">
-		<h1 id="mesexperiences">Mes expériences</h1>
-		<p class="expymii">Duran toute mon apprentissage non seulement scolaire, universitaire, mais aussi mes
+		<h1 id="mesexperiences" data-aos="fade-right">Mes expériences</h1>
+		<p class="expymii" data-aos="fade-up">Duran toute mon apprentissage non seulement scolaire, universitaire, mais
+			aussi mes
 			differentes expériences en entreprise, j'ai acquis un certain savoir-faire et un savoir-être, qui me
 			permettent aujourd'hui de pouvoir accomplire parfaitement certaines tâches et activités qui me seront
 			confiés.<p>
-				<div class="border"></div>
+				<div class="border" data-aos="fade-right"></div>
 				<div id="moncontainer">
-					<div id="flipper1">
+
+					<div id="flipper1" data-aos="fade-up">
 						<div class="maincontainer">
 							<div class="thecard">
 								<div class="thefront1">
@@ -219,7 +229,7 @@
 						</div>
 					</div>
 
-					<div id="flipper2">
+					<div id="flipper2" data-aos="fade-up">
 						<div class="maincontainer">
 							<div class="thecard">
 								<div class="thefront1">
@@ -239,7 +249,7 @@
 						</div>
 					</div>
 
-					<div id="flipper3">
+					<div id="flipper3" data-aos="fade-zoom-in">
 						<div class="maincontainer">
 							<div class="thecard">
 								<div class="thefront1">
@@ -271,7 +281,7 @@
 						</div>
 					</div>
 
-					<div id="flipper4">
+					<div id="flipper4" data-aos="fade-right">
 						<div class="maincontainer">
 							<div class="thecard">
 								<div class="thefront1">
@@ -296,14 +306,16 @@
 	<!----------------------------------------------------mes réalisations---------------------------->
 	<section>
 		<div class="ibreal">
-			<h1 id="mesreah">Mes réalisations</h1>
-			<p class="reali">Ici, vous avez l'ensemble de mes différentes réalisations durant toute ma formation à
+			<h1 id="mesreah" data-aos="fade-down">Mes réalisations</h1>
+			<p class="reali" data-aos="fade-up">Ici, vous avez l'ensemble de mes différentes réalisations durant toute
+				ma formation à
 				l'Ecole 241.<p>
-					<div class="border"></div>
+					<div class="border" data-aos="fade-right"></div>
 					<!--------------------------première partie de mes réalisations----------------------------------->
 					<div class="reatablette">
 						<div id="mesrealisations1">
-							<div class="realisations">
+
+							<div class="realisations" data-aos="fade-right">
 								<div class="imagerealisisso">
 									<img src="assets/media.PNG" alt="mes differents médias">
 								</div>
@@ -315,7 +327,7 @@
 								</div>
 							</div>
 
-							<div class="realisations">
+							<div class="realisations" data-aos="flip-left">
 								<div class="imagerealisisso">
 									<img src="assets/formulaire.PNG" alt="mon premier formulaire d'inscription-V1">
 								</div>
@@ -327,7 +339,7 @@
 								</div>
 							</div>
 
-							<div class="realisations">
+							<div class="realisations" data-aos="fade-up">
 								<div class="imagerealisisso">
 									<img src="assets/meteojob.png" alt="mon deuxième formulaire d'inscription-V2">
 								</div>
@@ -345,7 +357,8 @@
 		<!-----------------------deuxième partie de mes réalisations----------------------------->
 		<div class="reatablette">
 			<div id="mesrealisations2">
-				<div class="realisations">
+
+				<div class="realisations" data-aos="fade-left">
 					<div class="imagerealisisso">
 						<img src="assets/tableau.PNG" alt="Calendrier d'activités">
 					</div>
@@ -357,7 +370,7 @@
 					</div>
 				</div>
 
-				<div class="realisations">
+				<div class="realisations" data-aos="fade-right">
 					<div class="imagerealisisso">
 						<img src="assets/liste de presence.PNG" alt="ma list de présence">
 					</div>
@@ -369,7 +382,7 @@
 					</div>
 				</div>
 
-				<div class="realisations">
+				<div class="realisations" data-aos="flip-left">
 					<div class="imagerealisisso">
 						<img src="assets/CV.png" alt="ma prémièrepage web - CV">
 					</div>
@@ -392,14 +405,15 @@
 		<div id="messervices">
 			<div class="services-section">
 				<div class="inner-width">
-					<div class="section-title">
+					<div class="section-title" data-aos="zoom-in-down">
 						<h1>Mes services</h1>
 					</div>
-					<p class="servi">À travers ces quelques blocs, vous avez un ensemble des services que j'offres.<p>
-							<div class="border"></div>
+					<p class="servi" data-aos="fade-right">À travers ces quelques blocs, vous avez un ensemble des
+						services que j'offres.<p>
+							<div class="border" data-aos="fade-right"></div>
 
 							<div class="services-container">
-								<div class="service-box">
+								<div class="service-box" data-aos="fade-left">
 									<div class="service-icon">
 										<i class="fa fa-book"></i>
 									</div>
@@ -412,7 +426,7 @@
 									</div>
 								</div>
 
-								<div class="service-box">
+								<div class="service-box" data-aos="fade-left">
 									<div class="service-icon">
 										<i class="fa fa-tasks"></i>
 									</div>
@@ -427,7 +441,7 @@
 									</div>
 								</div>
 
-								<div class="service-box">
+								<div class="service-box" data-aos="fade-left">
 									<div class="service-icon">
 										<i class="fa fa-tachometer"></i>
 									</div>
@@ -439,7 +453,7 @@
 									</div>
 								</div>
 
-								<div class="service-box">
+								<div class="service-box" data-aos="fade-right">
 									<div class="service-icon">
 										<i class="fa fa-code"></i>
 									</div>
@@ -451,7 +465,7 @@
 									</div>
 								</div>
 
-								<div class="service-box">
+								<div class="service-box" data-aos="fade-right">
 									<div class="service-icon">
 										<i class="fa fa-paint-brush"></i>
 									</div>
@@ -464,7 +478,7 @@
 									</div>
 								</div>
 
-								<div class="service-box">
+								<div class="service-box" data-aos="fade-right">
 									<div class="service-icon">
 										<i class="fa fa-sitemap"></i>
 									</div>
@@ -477,7 +491,7 @@
 									</div>
 								</div>
 
-								<div class="service-box">
+								<div class="service-box" data-aos="zoom-in-left">
 									<div class="service-icon">
 										<i class="fa fa-dollar"></i>
 									</div>
@@ -489,7 +503,7 @@
 									</div>
 								</div>
 
-								<div class="service-box">
+								<div class="service-box" data-aos="zoom-in-left">
 									<div class="service-icon">
 										<i class="fa fa-laptop"></i>
 									</div>
@@ -505,12 +519,13 @@
 	<!----------------------------------------contact--------------------------------->
 	<section>
 		<div id="mesrenseignements">
-			<h1 id="contact">N'hésitez pas, contactez moi</h1>
-			<p class="conta">Si vous souhaitez avoir plus d'informations à mon sujet écrivez moi...<p>
-					<div class="border"></div>
+			<h1 id="contact" data-aos="fade-right">N'hésitez pas, contactez moi</h1>
+			<p class="conta" data-aos="zoom-in-right">Si vous souhaitez avoir plus d'informations à mon sujet écrivez
+				moi...<p>
+					<div class="border" data-aos="fade-right"></div>
 
 					<div class="wrapper">
-						<div class="contact-form">
+						<div class="contact-form" data-aos="fade-up">
 							<div class="input-fields">
 								<input id="prenom" type="prenom" class="input" name="prenom"
 									placeholder="Votre prenom (s)" required minlength="4" maxlength="15" />
@@ -553,7 +568,7 @@
 	<!-----------------------------------en savoir plus sur moi-------------------------->
 	<section>
 		<div class="en-savoir">
-			<h1 id="blog">VOULEZ-VOUS EN SAVOIR PLUS SUR MOI ?</h1>
+			<h1 id="blog" data-aos="fade-right">VOULEZ-VOUS EN SAVOIR PLUS SUR MOI ?</h1>
 			<div class="arrow-container animated fadeInDown">
 				<div class="arrow-2">
 					<a href="https://mon-blog-ymii.netlify.app/">Mon blog</a>
@@ -579,6 +594,9 @@
 		</div>
 	</footer>
 	</main>
+	<script>
+		AOS.init();
+	</script>
 </body>
 
 </html>
