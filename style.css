@@ -4,7 +4,7 @@
   font-family: "montserrat",sans-serif;
   box-sizing: border-box;
 }
-/*--------------------mon header---------------------*/
+/*----------------------mon header---------------------*/
 .container{
   padding: 0;
   margin: 0;
@@ -64,8 +64,6 @@
 #moimeme{
   height:1000px;
   background-color: #C0C0C0;
-  transition: all 1.4s linear;
-  animation: moimeme 1.3s ease-in 1.5s forwards;
 }
 #aproposdemoi{
   color:  #FF8C00;
@@ -1036,6 +1034,7 @@ div> #useme{
   50% {
     opacity: 0.5;
   }
+  
   100% {
     opacity: 0;
   }
