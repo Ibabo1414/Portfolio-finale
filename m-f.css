@@ -6,7 +6,7 @@
 .qui{
   width: 100%;
 }
-.qui > img {
+#moimeme .qui > img {
   position: static;
   width: 30%;
   height: 80%;
@@ -147,7 +147,7 @@ div > img {
   height: 60%;
   width: 100%;
 }
-.qui > img {
+#moimeme .qui > img {
   position: static;
   width: 35%;
   height: 50%;
@@ -378,7 +378,7 @@ div > img {
     height: 57%;
     width: 80%;
   }
-  .qui > img {
+  #moimeme .qui > img {
     position: static;
     width: 40%;
     height: 43%;

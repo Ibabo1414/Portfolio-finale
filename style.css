@@ -93,7 +93,7 @@
   margin-right: auto;
   margin-left: auto;
 }
-.qui > img {
+#moimeme .qui > img {
   width: 30%;
   height: 83%;
   margin-top: 3em;
@@ -101,9 +101,9 @@
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
 }
-.qui > img:hover{
-  -webkit-transform: scale(1.80);
-  transform: scale(1.80);
+#moimeme .qui > img:hover{
+  -webkit-transform: scale(1.60);
+  transform: scale(1.60);
 }
 .textme{
   margin: 60px 30px 15px 21px;
