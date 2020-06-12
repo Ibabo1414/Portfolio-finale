@@ -1012,8 +1012,8 @@ div> #useme{
 .arrow-2 > a:hover{
   border-radius: 50%;
   padding: 21px;
-  background-color: #9370db;
-  color: #fff;
+  background-color: #4cf397;
+  color: #FF4500;
   text-decoration: none;
   display: inline-block;
   animation: pulse 2s linear alternate infinite;
