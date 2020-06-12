@@ -102,8 +102,8 @@
   transition: 0.4s ease;
 }
 .qui > img:hover{
-  -webkit-transform: scale(1.40);
-  transform: scale(1.40);
+  -webkit-transform: scale(1.80);
+  transform: scale(1.80);
 }
 .textme{
   margin: 60px 30px 15px 21px;
