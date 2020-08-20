@@ -1,7 +1,8 @@
 /**
  *class "Chargeur (loader) hidden"
  */
-window.addEventListener("load", function () {
-    const tout = document.querySelector(".tout");
-    tout.className += " hidden"; 
-});
+function showContent(){
+    document.querySelector('.loader-container').classList.add('hidden');
+}
+
+setTimeout(showContent, 3000);
