@@ -75,7 +75,7 @@ img {
 }
 /****************** #welcome-section *****************/
 #welcome-section {
-  background: url(../images/youri.jpg) no-repeat fixed center / cover;
+  background: url(../images/me.jpg) no-repeat fixed center / cover;
   position: relative;
   display: table;
   width: 100%;
@@ -638,7 +638,7 @@ a {
 }
 /****************** counter *****************/
 #counter {
-  background: url(../images/youri.jpg) no-repeat fixed center / cover;
+  background: url(../images/programmation.jpg) no-repeat fixed center / cover;
   height: 70vh;
   display: table;
   width: 100%;
@@ -790,19 +790,60 @@ footer {
   font-weight: 300;
   font-size: 0.95rem;
 }
-.back-to-top-btn {
-  position: absolute;
-  top: 50%;
-  margin-top: -25px;
+
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
   right: 10px;
   width: 50px;
   height: 50px;
+  font-size: 2rem;
   background: transparent;
-  line-height: 45px;
-  text-align: center;
-  border: 1px solid #FF8C00;
-  color: #FF8C00;
-  font-size: 1.5rem;
+  color:#FF8C00;
+  cursor: pointer;
+  outline: none;
+  border: 3px solid #FF8C00;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+  z-index: 99;
+}
+#back-to-top-btn:hover, #back-to-top-btn:focus {
+  background-color: #FF8C00;
+  color: #fff;  
+}
+/* Animations */
+.btnEntrance {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: btnEntrance;
+}
+/* fadeInUp-js */
+@keyframes btnEntrance {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.btnExit {
+  animation-duration: 0.25s;
+  animation-fill-mode: both;  
+  animation-name: btnExit;
+}
+/* fadeOutDown-js */
+@keyframes btnExit {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
 }
 /************ responsive media queries ************/
 @media screen and (max-width: 1200px) {
