@@ -36,15 +36,6 @@
   <!-- UIkit JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
-  <!-- File PWA-->
-  <meta name="theme-color" content="#0D0707" />
-  <link rel="manifest" href="manifest.json">
-  <script>
-      //if browser support service worker
-      if ('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('sw.js');
-      };
-  </script>
   <!-- File JS AO -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -56,6 +47,15 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-169336795-1');
+  </script>
+  <!-- File PWA-->
+  <meta name="theme-color" content="#0D0707" />
+  <link rel="manifest" href="manifest.json">
+  <script>
+      //if browser support service worker
+      if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('sw.js');
+      };
   </script>
 </head>
 
