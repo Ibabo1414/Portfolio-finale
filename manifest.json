@@ -1,0 +1,20 @@
+{
+  "short_name": "Youri-Mendoza II",
+  "name": "Youri-Mendoza II",
+  "icons": [
+    {
+      "src": "img/fevicon/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/fevicon/logo.png",
+      "type": "image/png",
+      "sizes": "310x310"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#0D0707",
+  "display": "standalone",
+  "theme_color": "#FF8C00"
+}
