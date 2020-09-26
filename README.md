@@ -1,6 +1,6 @@
 # Youri-Mendoza IBABO-ISSOUDI / Mon Portfolio 
 
- Youri-Mendoza IBABO-ISSOUDI, est simplement mon portfolio permettant de suivre l'évolution de mes compétences mais également de me découvrire.
+ Youri-Mendoza IBABO-ISSOUDI, est simplement mon portfolio permettant de suivre l'évolution de mes compétences, mon parcours scolaire, mes expériences professionnelles, réalisations etc., mais également de me connaître.
 
 # Site
 Le site est disponible à l'adresse suivante :
