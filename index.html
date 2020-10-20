@@ -595,16 +595,16 @@
           </div>
         </div>
         <div class="contact-form text-center">
-          <form action="">
+          <form method="post" autocomplete="off" name="google-sheet">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <input type="text" class="form-control" name="name" id="name" placeholder="Nom (s)">
+                  <input type="text" class="form-control" name="Name" id="name" placeholder="Nom (s)">
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                  <input type="email" class="form-control" name="Email" id="email" placeholder="Email">
                 </div>
 
               </div>
@@ -616,7 +616,7 @@
 
               </div>
             </div>
-            <button type="submit" class="btn btn-primary">Soumettez</button>
+            <button type="submit" name="submit" class="btn btn-primary" value="Login">Soumettez</button>
           </form>
         </div>
       </div>
@@ -645,7 +645,7 @@
       </button>
     </div>
   </footer>
-  <!-- footer start -->
+  <!-- footer End -->
   <!-- js file -->
   <script src="js/jquery-1.12.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -655,6 +655,9 @@
   <script src="js/custom.js"></script>
    <!--<script src="js/loader.js"></script>-->
   <script src="js/back.js"></script>
+     <!------- Start of the gs-sheet -------->
+     <script src="js/gs-sheet.js"></script>
+     <!------- End of the gs-sheet -------->
   <!-- AOS -->
   <script>
     AOS.init();
