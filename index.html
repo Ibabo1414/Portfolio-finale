@@ -2,666 +2,639 @@
 <html lang="fr">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Youri-Mendoza IBABO-ISSOUDI</title>
-  <!-- css file -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <!--<link rel="stylesheet" type="text/css" href="css/loarder.css">-->
-  <!-- UIkit CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
-  <!-- UIkit JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
-  <!-- File JS AO -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169336795-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Youri-Mendoza IBABO-ISSOUDI</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!--<link rel="stylesheet" type="text/css" href="css/loarder.css">-->
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+    <!-- File JS AO -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169336795-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'UA-169336795-1');
-  </script>
-  <!-- File PWA-->
-  <meta name="theme-color" content="#ffff" />
-  <link rel="manifest" href="manifest.json">
-  <script>
-      //if browser support service worker
-      if ('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('sw.js');
-      };
-  </script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-169336795-1');
+    </script>
+    <!-- File PWA-->
+    <meta name="theme-color" content="#ffff" />
+    <link rel="manifest" href="manifest.json">
+    <script>
+        //if browser support service worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        };
+    </script>
 </head>
 
 <body>
-  <!--------------############ Start of loarder #############-------->
-  <div class="loader-container">
-    <div class="loader"></div>
-  </div>
-  <!--------------############ En of loarder #############------------>
+    <!--------------############ Start of loarder #############-------->
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+    <!--------------############ En of loarder #############------------>
 
-  <!-- header start -->
-  <header id="header">
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
-      <div class="container">
-        <a class="navbar-brand" href="#header">
-          <div class="logo">
-            <img src="images/YMII.png" alt="Logo de YMII">
-          </div>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- header start -->
+    <header id="header">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#header">
+                    <div class="logo">
+                        <img src="images/YMII.png" alt="Logo de YMII">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item ">
-              <a class="nav-link" href="#welcome-section">Accueil<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about-me">A propos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#lescompetences">Compétences</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#formation">Formation</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#products">Expériences</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Réalisations</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#lesservices">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contactez-moi</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <!-- header end -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#welcome-section">Accueil<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-me">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#lescompetences">Compétences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#formation">Formation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Expériences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Réalisations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#lesservices">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contactez-moi</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header end -->
 
-  <!-- main-content start -->
-  <main id="main-content">
-    <!--------------- welcome-section start -------------->
-    <section id="welcome-section">
-      <div class="about-content">
-        <div class="container">
-          <div class="about-txt">
-            <h1>Youri-Mendoza</h1>
-            <h1>IBABO-ISSOUDI</h1>
-            <h2>
-              Développeur web et web mobile
-            </h2>
-          </div>
-          <div class="social-icons">
-            <a href="https://facebook.com/yourimendoza.ibabo" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="https://twitter.com/youri_mendoza" target="_blank"><i class="fab fa-twitter"></i></a>
-	    <a href="https://github.com/Ibabo1414?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/youri-mendoza-ibabo-466785120" target="_blank"><i
+    <!-- main-content start -->
+    <main id="main-content">
+        <!--------------- welcome-section start -------------->
+        <section id="welcome-section">
+            <div class="about-content">
+                <div class="container">
+                    <div class="about-txt">
+                        <h1>Youri-Mendoza</h1>
+                        <h1>IBABO-ISSOUDI</h1>
+                        <h2>
+                            Développeur web et web mobile
+                        </h2>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/yourimendoza.ibabo" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/youri_mendoza" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://github.com/Ibabo1414?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/youri-mendoza-ibabo-466785120" target="_blank"><i
                 class="fab fa-linkedin"></i></a>
-          </div>
-          <div class="image">
-            <img style="width:300px;" src="images/youri.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--------------------- A propos de moi start ------------------------>
-    <section id="about-me">
-      <div class="container">
-        <div class="sec-title text-center" data-aos="fade-right">
-          <header>
-            <h2>Qui suis-je ?</h2>
-          </header>
-          <p>
-            Codeur ? Chargé du developpement en informatique ? Développeur
-            informatique ? Informaticien ? Programmeur ? Il en existe
-            autant de nombreux synonymes rélatifs au métier de Développeur. En
-            effet, le Développement en informatique, à l'image du web est un univers vaste. Aussi,
-            pour mieux me définir, je m'appelle IBABO-ISSOUDI Youri-Mendoza, Développeur web et web
-            mobile, membre du GDG (Google Developpeur Groupe) de Libreville, co-fondateur
-            de la startup <span>G-ANALITIC</span>. Pour aller plus loin, j'ai suivi une formation de Développeur web et web mobile.
-            Le développement Front-End m'a particulièrement passionné. De plus, J'ai un bon sens de l'humour, j'ai le
-            contact facile et j'aime rencontrer de nouvelles
-            personnes. En plus de cela, j’ai la chance de faire un métier qui me passionne. Intéressée
-            par tout ce qui touche à mon domaine, j’effectue une veille quotidienne concernant
-            les nouvelles technologies web et le design.
-          </p>
-        </div>
-        <!--------------------------- mes compétences --------------------------->
-        <div id="lescompetences">
-          <div class="sec-title text-center">
-            <header>
-              <h2 class="competences" data-aos="zoom-in-down">Mes compétences</h2>
-            </header>
-            <p class="ymii" data-aos="zoom-in-up">
-              Durant tout ma formation à l'Ecole 241, j'ai acquis certaines compétences.
-            </p>
-          </div>
-          <div class="about-me-content text-center">
-            <div class="row">
-              <div class="col-md-4" data-aos="fade-up">
-                <div class="about-me-item">
-                  <div class="icn">
-                    <i class="fas fa-layer-group"></i>
-                  </div>
-                  <h3>WEB DESIGN</h3>
-                  <p>
-                    Le Design UX/UI (User eXperience / User Interface) est une spécialisation
-                    récente du métier de Web Designer. J'offre des services dans le développement
-                    des sites web et applications mobiles dynamiques.
-                  </p>
+                    </div>
+                    <div class="image">
+                        <img style="width:300px;" src="images/youri.jpg" alt="" />
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-4">
-                <div class="about-me-item">
-                  <div class="icn">
-                    <i class="fab fa-react"></i>
-                  </div>
-                  <h3>DÉVELOPPEMENT PHP</h3>
-                  <p>
-                    Dans le cadre de mes compétences, j'utilise également le langage de script PHP,
-                    qui me permet à la fois la production de pages web dynamiques tout en communiquant avec
-                    le serveur MySQL.
-                  </p>
-                </div>
-              </div>
-              <div class="col-md-4" data-aos="fade-right">
-                <div class="about-me-item">
-                  <div class="icn">
-                    <i class="fas fa-cubes"></i>
-                  </div>
-                  <h3>DÉVELOPPEMENT FRONT-END</h3>
-                  <p>
-                    J'utilise les langages HTML5, CSS3 et JavaScript.
-                    J'effectue quotidiennement une veille technologique afin de me tenir
-                    informée des dernières évolutions en matière de développement
-                    front-end et Back-End.
-                  </p>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- about-me end -->
-    <!--------------------------- ma formation --------------------------->
-    <section id="formation">
-      <div class="sec-title text-center formation">
-        <header>
-          <h2 data-aos="fade-right">Ma formation</h2>
-        </header>
-        <p class="ymii" data-aos="zoom-in-down">
-          Ci-dessous vous avez un schéma qui résume l'ensemble de mon cursus scolaire.
-        </p>
-      </div>
-      <main>
-        <ul class="cards-container" data-aos="zoom-in-down">
-          <li class="cyan-feature-card">
-            <h2>Ecole 241</h2>
-            <p>
-              Apprenant à l'Ecole 241 (2020) : Développeur web et web mobile
-            </p>
-          </li>
-          <li class="red-feature-card">
-            <h2>Licence Professionnelle</h2>
-            <p>
-              Obtention d'une licence professionelle Assistant Manager (IUSO)
-            </p>
-          </li>
-          <li class="orange-feature-card">
-            <h2>Baccalauréat B</h2>
-            <p>
-              Obtention du baccalauréat d'Enseignement général (L.J.S.M)
-            </p>
-          </li>
-          <li class="blue-feature-card">
-            <h2>Permis B</h2>
-            <p>
-              Titulaire d'un permis B pour véhicule de moins de 10 places
-              et d'un poids total en charge n'excédant pas 3.500 kilogs (Permanent).
-            </p>
-          </li>
-        </ul>
-      </main>
-    </section>
-    <!------------------------------ mes experiences ----------------------------->
-    <section id="products">
-      <div class="sec-title text-center formation">
-        <header>
-          <h2 data-aos="fade-right">Mes expériences</h2>
-        </header>
-        <p class="ymii" data-aos="fade-up">
-          Durant tout mon apprentissage non seulement scolaire, universitaire, mais aussi mes
-          differentes expériences en entreprise, j'ai acquis un certain savoir-faire et un savoir-être, qui me
-          permettent aujourd'hui de pouvoir accomplire parfaitement certaines tâches et activités qui me seront
-          confiés.
-        </p>
-      </div>
-
-      <section class="container-products-item">
-        <article class="products__item" data-aos="fade-right">
-          <img src="images/hacktoberfest.png" alt="" class="product-img">
-          <section class="product-desc">
-            <a href="#">
-              <h2 class="product-desc__title">HACKTOBERFEST</h2>
-            </a>
-            <p class="product-desc__text">Un hackathon mondial en ligne initié par Digital Ocean 
-              faisant participer tous les développeurs des quatre coins de la Terre sur des projets 
-              open source hébergés sur Github. L'objectif est de contribuer à la croissance de l'open 
-              source et apporter des contributions positives à une communauté en constante croissance.</p>
-          </section>
-          <div class="wrap-item-button"><a href="https://hacktoberfest.digitalocean.com/" class="item-button">2019-2020</a></div>
-        </article>
-        <article class="products__item" data-aos="fade-right">
-          <img src="images/g-analitic.png" alt="" class="product-img">
-          <section class="product-desc">
-            <a href="#">
-              <h2 class="product-desc__title">G-ANALITIC</h2>
-            </a>
-            <p class="product-desc__text">G-ANALITIC est une jeune startup Gabonais qui vient à peine d’être créé
-              et qui est axée dans la mise en place de solutions numériques, particulièrement dans la gestion des données statistique etc. Elle a été fondée par quatre jeunes gabonais
-              qui nourrissent l’ambition de trouver des solutions liées à la disponibilité des données.</p>
-          </section>
-          <div class="wrap-item-button"><a href="#" class="item-button">2019-2020</a></div>
-        </article>
-
-        <article class="products__item" data-aos="fade-up">
-          <img src="images/TegCampus.png" alt="" class="product-img">
-          <section class="product-desc">
-            <a href="#">
-              <h2 class="product-desc__title">TegCampus 2020</h2>
-            </a>
-            <p class="product-desc__text">Le TegCampus est le plus grand événement jeunes & Afrique qui
-              se déroule chaque année en ligne. Pour cette année (2020), la thématique du hackathon TegCampus CEMAC
-              s'articulait autour de : E-Tourisme, Editech, Industries culturelles et créatives, la coopération et
-              E-commerce.
-            </p>
-          </section>
-          <div class="wrap-item-button"><a href="#" class="item-button">2019-2020</a></div>
-        </article>
-
-        <article class="products__item" data-aos="fade-down">
-          <img src="images/SpaceApps.png" alt="" class="product-img">
-          <section class="product-desc">
-            <a href="#">
-              <h2 class="product-desc__title">SpaceApps (NASA) 2020</h2>
-            </a>
-            <p class="product-desc__text">Space Apps est un hackathon international pour les codeurs,
-              les scientifiques, les concepteurs, les conteurs, les fabricants, les constructeurs,
-              les technologues et autres dans des villes du monde entier, où les équipes interagissent
-              avec les données libres et ouvertes de la National Aeronautics and Space Administration
-              pour s'attaquer aux problèmes du monde réel sur Terre et dans l'espace.
-            </p>
-          </section>
-          <div class="wrap-item-button"><a href="#" class="item-button">2019-2020</a></div>
-        </article>
-
-        <article class="products__item" data-aos="fade-up">
-          <img src="images/branding.jpg" alt="" class="product-img">
-          <section class="product-desc">
-            <a href="#">
-              <h2 class="product-desc__title">Branding challenge</h2>
-            </a>
-            <p class="product-desc__text">Le branding challenge est un événement qui a été organisé par
-              l'Ecole 241. Il s'est déroulé pendand 48h et mettant en scène plusieurs équipes
-              dont la notre (La Team Des Four) pour proposer une charte graphique pour un
-              produit donné.</p>
-          </section>
-          <div class="wrap-item-button"><a href="#" class="item-button">2019-2020</a></div>
-        </article>
-
-        <article class="products__item" data-aos="fade-up">
-          <img src="images/tefconnect.png" alt="" class="product-img">
-          <section class="product-desc">
-            <a href="#">
-              <h2 class="product-desc__title">TefConnect</h2>
-            </a>
-            <p class="product-desc__text">Le TEFCONNECT est un programme entreprennariale organisé par
-              la fondation Tony Elumelu sur tout le continent africain.</p>
-          </section>
-          <div class="wrap-item-button"><a href="#" class="item-button">2019-2020</a></div>
-        </article>
-
-        <article class="products__item" data-aos="fade-up">
-          <img src="images/sante.png" alt="" class="product-img">
-          <section class="product-desc">
-            <a href="#">
-              <h2 class="product-desc__title">Projet SNIS</h2>
-            </a>
-            <p class="product-desc__text">Le projet de renforcement du Système National
-              d'Information
-              Sanitaire (SNIS) du Gabon est un projet qui bénéficit de l'appui du Gabon et
-              de
-              la Banque MOndiale pour la période 2017-2022.</p>
-          </section>
-          <div class="wrap-item-button"><a href="#" class="item-button">2018-2019</a></div>
-        </article>
-      </section>
-    </section>
-
-    <!----------------------------- mes réalisations -------------------->
-    <!-- projects start -->
-    <section id="projects">
-      <div class="container">
-        <div class="sec-title text-center">
-          <header>
-            <h2 data-aos="fade-right">Mes réalisations</h2>
-          </header>
-          <p class="ymii" data-aos="fade-right">
-            Ici, vous avez l'ensemble de mes différentes réalisations durant toute ma formation à l'Ecole 241.
-          </p>
-        </div>
-        <div class="projects-content text-center" data-aos="fade-up">
-          <div class="row">
-            <!-- projet 1 -->
-            <div class="col-md-3">
-              <a class="projects-item" href="https://g-analitic.netlify.app/" target="_blank">
-                <div class="project-img">
-                  <img src="images/g-analitic.png" alt="La start-Up G-ANALITIC" />
-                </div>
-                <div class="project-tile">
-                  <h3>G-ANALITIC</h3>
-                </div>
-              </a>
-            </div>
-         <!-- projet 2 -->
-
-            <div class="col-md-3">
-              <a class="projects-item" href="https://shoppy-shop.netlify.app/" target="_blank">
-                <div class="project-img">
-                  <img src="images/Shoppy-Shop.png" alt="Shoppy-Shop" />
-                </div>
-                <div class="project-tile">
-                  <h3>VentE-Up</h3>
-                </div>
-              </a>
-            </div>
-              <!-- projet 3 -->
-               <div class="col-md-3">
-              <a class="projects-item" href="https://ibabo1414.github.io/sos-medecins/" target="_blank">
-                <div class="project-img">
-                  <img src="images/sosmedecin.png" alt="SOSMEDECIN" />
-                </div>
-                <div class="project-tile">
-                  <h3>SOSMEDECIN</h3>
-                </div>
-              </a>
-            </div>
-              <!-- projet 4 -->
-              <div class="col-md-3">
-              <a class="projects-item" href="https://stfresh.glideapp.io/" target="_blank">
-                <div class="project-img">
-                  <img src="images/FRESH2.png" alt="START’HUBBER" />
-                </div>
-                <div class="project-tile">
-                  <h3>START'HUBBER</h3>
-                </div>
-              </a>
-            </div>
-            <!-- projet 5 -->
-           <div class="col-md-3">
-              <a class="projects-item" href="https://ibabo1414.github.io/anniversaire/" target="_blank">
-                <div class="project-img">
-                  <img src="images/anniversaire.png" alt="L'anniversaire" />
-                </div>
-                <div class="project-tile">
-                  <h3>Anniversaire</h3>
-                </div>
-              </a>
-            </div>
-            <!-- projet 6 -->
-            <div class="col-md-3">
-              <a class="projects-item" href="https://ibabo1414.github.io/Projet-To-Go/" target="_blank">
-                <div class="project-img">
-                  <img src="images/to-go.png" alt="" />
-                </div>
-                <div class="project-tile">
-                  <h3>To-Go</h3>
-                </div>
-              </a>
-            </div>  
-            <!-- projet 7 -->
-            <div class="col-md-3">
-              <a class="projects-item" href="https://ibabo1414.github.io/Mon-blog/" target="_blank">
-                <div class="project-img">
-                  <img src="images/blog.png" alt="Blog" />
-                </div>
-                <div class="project-tile">
-                  <h3>Blog</h3>
-                </div>
-              </a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- projects end -->
-    <!---============--- mes services ----=================----->
-    <section id="lesservices">
-      <div class="sec-title text-center formation">
-        <header>
-          <h2 data-aos="fade-right">Mes services</h2>
-        </header>
-        <p class="messervices ymii" data-aos="fade-right">
-          À travers ces quelques blocs, vous avez un ensemble des services que j'offres.
-        </p>
-      </div>
-      <!-- UIkit SECTION -->
-      <div class="uk-section uk-section-default" data-aos="fade-up">
-        <div class="uk-container">
-          <div class="uk-margin uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
-            <div>
-              <div class="uk-animation-toggle" tabindex="0">
-                <div class="uk-margin uk-card uk-card-default uk-card-hover uk-animation-shake">
-                  <div class="uk-card-media-top">
-                    <img src="images/cahier-des-charges.png" alt="" />
-                  </div>
-                  <div class="uk-card-body">
-                    <h3 class="uk-card-title">CAHIER DES CHARGES</h3>
-                    <p>Je réponds à votre cahier des charges en développant toutes les fonctionnalités
-                      invisibles à l'utilisateur et nécessaires au fonctionnement de l'interface.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="uk-animation-toggle" tabindex="0">
-                <div class="uk-margin uk-card uk-card-default uk-card-hover uk-animation-shake">
-                  <div class="uk-card-media-top">
-                    <img src="images/maquette.jpeg" alt="">
-                  </div>
-                  <div class="uk-card-body">
-                    <h3 class="uk-card-title">MAQUETTAGE</h3>
-                    <p>Je développe toute l'interface visible de votre site Web à partir d'une maquette, logo etc.
-                      Le but étant d'aboutir à une interface ergonomique et interactive.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="uk-animation-toggle" tabindex="0">
-                <div class="uk-margin uk-card uk-card-default uk-card-hover uk-animation-shake">
-                  <div class="uk-card-media-top">
-                    <img src="images/programmation.jpg" alt="">
-                  </div>
-                  <div class="uk-card-body">
-                    <h3 class="uk-card-title">WEB DEVELOPMENT</h3>
+        </section>
+        <!--------------------- A propos de moi start ------------------------>
+        <section id="about-me">
+            <div class="container">
+                <div class="sec-title text-center" data-aos="fade-right">
+                    <header>
+                        <h2>Qui suis-je ?</h2>
+                    </header>
                     <p>
-                      Je réalise des sites web et web mobile dynamique et intuitif avec des technologies tels que HTML,
-                      CSS et
-                      JavaScript. Cela comprends également le langage de programmation PHP.
+                        Codeur ? Chargé du developpement en informatique ? Développeur informatique ? Informaticien ? Programmeur ? Il en existe autant de nombreux synonymes rélatifs au métier de Développeur. En effet, le Développement en informatique, à l'image du web est un
+                        univers vaste. Aussi, pour mieux me définir, je m'appelle IBABO-ISSOUDI Youri-Mendoza, Développeur web et web mobile, membre du GDG (Google Developpeur Groupe) de Libreville, co-fondateur de la startup <span>G-ANALITIC</span>.
+                        Pour aller plus loin, j'ai suivi une formation de Développeur web et web mobile. Le développement Front-End m'a particulièrement passionné. De plus, J'ai un bon sens de l'humour, j'ai le contact facile et j'aime rencontrer de nouvelles
+                        personnes. En plus de cela, j’ai la chance de faire un métier qui me passionne. Intéressée par tout ce qui touche à mon domaine, j’effectue une veille quotidienne concernant les nouvelles technologies web et le design.
                     </p>
-                  </div>
                 </div>
-              </div>
+                <!--------------------------- mes compétences --------------------------->
+                <div id="lescompetences">
+                    <div class="sec-title text-center">
+                        <header>
+                            <h2 class="competences" data-aos="zoom-in-down">Mes compétences</h2>
+                        </header>
+                        <p class="ymii" data-aos="zoom-in-up">
+                            Durant tout ma formation à l'Ecole 241, j'ai acquis certaines compétences.
+                        </p>
+                    </div>
+                    <div class="about-me-content text-center">
+                        <div class="row">
+                            <div class="col-md-4" data-aos="fade-up">
+                                <div class="about-me-item">
+                                    <div class="icn">
+                                        <i class="fas fa-layer-group"></i>
+                                    </div>
+                                    <h3>WEB DESIGN</h3>
+                                    <p>
+                                        Le Design UX/UI (User eXperience / User Interface) est une spécialisation récente du métier de Web Designer. J'offre des services dans le développement des sites web et applications mobiles dynamiques.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="about-me-item">
+                                    <div class="icn">
+                                        <i class="fab fa-react"></i>
+                                    </div>
+                                    <h3>DÉVELOPPEMENT PHP</h3>
+                                    <p>
+                                        Dans le cadre de mes compétences, j'utilise également le langage de script PHP, qui me permet à la fois la production de pages web dynamiques tout en communiquant avec le serveur MySQL.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4" data-aos="fade-right">
+                                <div class="about-me-item">
+                                    <div class="icn">
+                                        <i class="fas fa-cubes"></i>
+                                    </div>
+                                    <h3>DÉVELOPPEMENT FRONT-END</h3>
+                                    <p>
+                                        J'utilise les langages HTML5, CSS3 et JavaScript. J'effectue quotidiennement une veille technologique afin de me tenir informée des dernières évolutions en matière de développement front-end et Back-End.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!----------------------------- counter start ------------------------>
-    <section id="counter">
-      <div class="counter-content text-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3">
-              <div class="counter-item">
-                <i class="fa fa-code"></i>
-                <h3><span class="counter">112345</span>+</h3>
-                <h4>LIGNES DE CODE</h4>
-              </div>
+        </section>
+        <!-- about-me end -->
+        <!--------------------------- ma formation --------------------------->
+        <section id="formation">
+            <div class="sec-title text-center formation">
+                <header>
+                    <h2 data-aos="fade-right">Ma formation</h2>
+                </header>
+                <p class="ymii" data-aos="zoom-in-down">
+                    Ci-dessous vous avez un schéma qui résume l'ensemble de mon cursus scolaire.
+                </p>
+            </div>
+            <main>
+                <ul class="cards-container" data-aos="zoom-in-down">
+                    <li class="cyan-feature-card">
+                        <h2>Ecole 241</h2>
+                        <p>
+                            Apprenant à l'Ecole 241 (2020) : Développeur web et web mobile
+                        </p>
+                    </li>
+                    <li class="red-feature-card">
+                        <h2>Licence Professionnelle</h2>
+                        <p>
+                            Obtention d'une licence professionelle Assistant Manager (IUSO)
+                        </p>
+                    </li>
+                    <li class="orange-feature-card">
+                        <h2>Baccalauréat B</h2>
+                        <p>
+                            Obtention du baccalauréat d'Enseignement général (L.J.S.M)
+                        </p>
+                    </li>
+                    <li class="blue-feature-card">
+                        <h2>Permis B</h2>
+                        <p>
+                            Titulaire d'un permis B pour véhicule de moins de 10 places et d'un poids total en charge n'excédant pas 3.500 kilogs (Permanent).
+                        </p>
+                    </li>
+                </ul>
+            </main>
+        </section>
+        <!------------------------------ mes experiences ----------------------------->
+        <section id="products">
+            <div class="sec-title text-center formation">
+                <header>
+                    <h2 data-aos="fade-right">Mes expériences</h2>
+                </header>
+                <p class="ymii" data-aos="fade-up">
+                    Durant tout mon apprentissage non seulement scolaire, universitaire, mais aussi mes differentes expériences en entreprise, j'ai acquis un certain savoir-faire et un savoir-être, qui me permettent aujourd'hui de pouvoir accomplire parfaitement certaines
+                    tâches et activités qui me seront confiés.
+                </p>
             </div>
 
-            <div class="col-md-3">
-              <div class="counter-item">
-                <i class="fa fa-tasks"></i>
-                <h3><span class="counter">31</span>+</h3>
-                <h4>PROJETS FINIS</h4>
-              </div>
-            </div>
+            <section class="container-products-item">
 
-            <div class="col-md-3">
-              <div class="counter-item">
-                <i class="fa fa-users"></i>
-                <h3><span class="counter">7</span>+</h3>
-                <h4>CLIENTS SATISFAITS</h4>
-              </div>
+                <!--**** TefConnect ****-->
+                <article class="products__item" data-aos="fade-up">
+                    <img src="images/sing.jpeg" alt="" class="product-img">
+                    <section class="product-desc">
+                        <a href="#">
+                            <h2 class="product-desc__title">SING SA</h2>
+                        </a>
+                        <p class="product-desc__text">Dans l’optique de préparer les candidats au concours national « e-Startup Challenge » financé par le ministère de l’Economie numérique et la Banque Mondiale que la Société d’Incubation Numérique du Gabon (SING) et l’ECOLE 241 ont
+                            organisés un Hackaton dénommé « 54h Chrono ».</p>
+                    </section>
+                    <div class="wrap-item-button"><a href="#" class="item-button">2019-2020</a></div>
+                </article>
+                <!--**** HACKTOBERFEST ****-->
+                <article class="products__item" data-aos="fade-right">
+                    <img src="images/hacktoberfest.png" alt="" class="product-img">
+                    <section class="product-desc">
+                        <a href="#">
+                            <h2 class="product-desc__title">HACKTOBERFEST</h2>
+                        </a>
+                        <p class="product-desc__text">Un hackathon mondial en ligne initié par Digital Ocean faisant participer tous les développeurs des quatre coins de la Terre sur des projets open source hébergés sur Github. L'objectif est de contribuer à la croissance de l'open
+                            source et apporter des contributions positives à une communauté en constante croissance.</p>
+                    </section>
+                    <div class="wrap-item-button"><a href="https://hacktoberfest.digitalocean.com/" class="item-button">2019-2020</a></div>
+                </article>
+                <!--**** G-ANALITIC ****-->
+                <article class="products__item" data-aos="fade-right">
+                    <img src="images/g-analitic.png" alt="" class="product-img">
+                    <section class="product-desc">
+                        <a href="#">
+                            <h2 class="product-desc__title">G-ANALITIC</h2>
+                        </a>
+                        <p class="product-desc__text">G-ANALITIC est une jeune startup Gabonais qui vient à peine d’être créé et qui est axée dans la mise en place de solutions numériques, particulièrement dans la gestion des données statistique etc. Elle a été fondée par quatre jeunes
+                            gabonais qui nourrissent l’ambition de trouver des solutions liées à la disponibilité des données.</p>
+                    </section>
+                    <div class="wrap-item-button"><a href="#" class="item-button">2019-2020</a></div>
+                </article>
+                <!--**** TegCampus 2020 ****-->
+                <article class="products__item" data-aos="fade-up">
+                    <img src="images/TegCampus.png" alt="" class="product-img">
+                    <section class="product-desc">
+                        <a href="#">
+                            <h2 class="product-desc__title">TegCampus 2020</h2>
+                        </a>
+                        <p class="product-desc__text">Le TegCampus est le plus grand événement jeunes & Afrique qui se déroule chaque année en ligne. Pour cette année (2020), la thématique du hackathon TegCampus CEMAC s'articulait autour de : E-Tourisme, Editech, Industries culturelles
+                            et créatives, la coopération et E-commerce.
+                        </p>
+                    </section>
+                    <div class="wrap-item-button"><a href="#" class="item-button">2019-2020</a></div>
+                </article>
+                <!--**** SpaceApps (NASA) 2020 ****-->
+                <article class="products__item" data-aos="fade-down">
+                    <img src="images/SpaceApps.png" alt="" class="product-img">
+                    <section class="product-desc">
+                        <a href="#">
+                            <h2 class="product-desc__title">SpaceApps (NASA) 2020</h2>
+                        </a>
+                        <p class="product-desc__text">Space Apps est un hackathon international pour les codeurs, les scientifiques, les concepteurs, les conteurs, les fabricants, les constructeurs, les technologues et autres dans des villes du monde entier, où les équipes interagissent
+                            avec les données libres et ouvertes de la National Aeronautics and Space Administration pour s'attaquer aux problèmes du monde réel sur Terre et dans l'espace.
+                        </p>
+                    </section>
+                    <div class="wrap-item-button"><a href="#" class="item-button">2019-2020</a></div>
+                </article>
+                <!--**** Branding challenge ****-->
+                <article class="products__item" data-aos="fade-up">
+                    <img src="images/branding.jpg" alt="" class="product-img">
+                    <section class="product-desc">
+                        <a href="#">
+                            <h2 class="product-desc__title">Branding challenge</h2>
+                        </a>
+                        <p class="product-desc__text">Le branding challenge est un événement qui a été organisé par l'Ecole 241. Il s'est déroulé pendand 48h et mettant en scène plusieurs équipes dont la notre (La Team Des Four) pour proposer une charte graphique pour un produit donné.</p>
+                    </section>
+                    <div class="wrap-item-button"><a href="#" class="item-button">2019-2020</a></div>
+                </article>
+                <!--**** Projet SNIS ****-->
+                <article class="products__item" data-aos="fade-up">
+                    <img src="images/sante.png" alt="" class="product-img">
+                    <section class="product-desc">
+                        <a href="#">
+                            <h2 class="product-desc__title">Projet SNIS</h2>
+                        </a>
+                        <p class="product-desc__text">Le projet de renforcement du Système National d'Information Sanitaire (SNIS) du Gabon est un projet qui bénéficit de l'appui du Gabon et de la Banque MOndiale pour la période 2017-2022.</p>
+                    </section>
+                    <div class="wrap-item-button"><a href="#" class="item-button">2018-2019</a></div>
+                </article>
+            </section>
+            <!-- Télécharger le CV -->
+            <div class="contactez-nous-but">
+                <button class="subscribe-button">
+                  <a href="images/Ebusiness.png" download>Télécharger le CV</a>
+          
+          </button>
             </div>
-            
-            <div class="col-md-3">
-              <div class="counter-item">
-                <i class="fas fa-clock"></i>
-                <h3><span class="counter">2880</span>+</h3>
-                <h4>NOMBRE D'HEURES</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- counter end -->
+        </section>
 
-    <!-- contact start -->
-    <section id="contact">
-      <div class="container">
-        <div class="contact-content">
-          <div class="sec-title text-center">
-            <header>
-              <h2 data-aos="fade-right">Contactez-moi</h2>
-            </header>
-          </div>
-          <div class="contact-info text-center" data-aos="zoom-in-right">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="contact-info-item">
-                  <i class="fas fa-phone-volume"></i>
-                  <h3>Téléphone</h3>
-                  <p>+241077762556 <br>+241074779159</p>
+        <!----------------------------- mes réalisations -------------------->
+        <!-- projects start -->
+        <section id="projects">
+            <div class="container">
+                <div class="sec-title text-center">
+                    <header>
+                        <h2 data-aos="fade-right">Mes réalisations</h2>
+                    </header>
+                    <p class="ymii" data-aos="fade-right">
+                        Ici, vous avez l'ensemble de mes différentes réalisations durant toute ma formation à l'Ecole 241.
+                    </p>
                 </div>
-              </div>
-              <div class="col-md-4">
-                <div class="contact-info-item">
-                  <i class="far fa-envelope"></i>
-                  <h3>Email</h3>
-                  <p>iyourimendoza@gmail.com <br>yourimendozaibabo@yahoo.com</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="contact-info-item">
-                  <i class="fas fa-search-location"></i>
-                  <h3>Address</h3>
-                  <p>Libreville, Gabon
-                    <br>Libreville Angondje</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="contact-form text-center">
-          <form method="post" autocomplete="off" name="google-sheet">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="text" class="form-control" name="Name" id="name" placeholder="Nom (s)">
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="email" class="form-control" name="Email" id="email" placeholder="Email">
-                </div>
+                <div class="projects-content text-center" data-aos="fade-up">
+                    <div class="row">
+                        <!-- projet 1 -->
+                        <div class="col-md-3">
+                            <a class="projects-item" href="https://g-analitic.netlify.app/" target="_blank">
+                                <div class="project-img">
+                                    <img src="images/g-analitic.png" alt="La start-Up G-ANALITIC" />
+                                </div>
+                                <div class="project-tile">
+                                    <h3>G-ANALITIC</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- projet 2 -->
 
-              </div>
-              <div class="col-md-12">
-                <div class="form-group">
-                  <textarea name="Message" class="form-control" id="Message" placeholder="Laissez votre message..."
-                    cols="100" row="4"></textarea>
-                </div>
+                        <div class="col-md-3">
+                            <a class="projects-item" href="https://shoppy-shop.netlify.app/" target="_blank">
+                                <div class="project-img">
+                                    <img src="images/Shoppy-Shop.png" alt="Shoppy-Shop" />
+                                </div>
+                                <div class="project-tile">
+                                    <h3>VentE-Up</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- projet 3 -->
+                        <div class="col-md-3">
+                            <a class="projects-item" href="https://ibabo1414.github.io/sos-medecins/" target="_blank">
+                                <div class="project-img">
+                                    <img src="images/sosmedecin.png" alt="SOSMEDECIN" />
+                                </div>
+                                <div class="project-tile">
+                                    <h3>SOSMEDECIN</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- projet 4 -->
+                        <div class="col-md-3">
+                            <a class="projects-item" href="https://stfresh.glideapp.io/" target="_blank">
+                                <div class="project-img">
+                                    <img src="images/FRESH2.png" alt="START’HUBBER" />
+                                </div>
+                                <div class="project-tile">
+                                    <h3>START'HUBBER</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- projet 5 -->
+                        <div class="col-md-3">
+                            <a class="projects-item" href="https://ibabo1414.github.io/anniversaire/" target="_blank">
+                                <div class="project-img">
+                                    <img src="images/anniversaire.png" alt="L'anniversaire" />
+                                </div>
+                                <div class="project-tile">
+                                    <h3>Anniversaire</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- projet 6 -->
+                        <div class="col-md-3">
+                            <a class="projects-item" href="https://ibabo1414.github.io/Projet-To-Go/" target="_blank">
+                                <div class="project-img">
+                                    <img src="images/to-go.png" alt="" />
+                                </div>
+                                <div class="project-tile">
+                                    <h3>To-Go</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- projet 7 -->
+                        <div class="col-md-3">
+                            <a class="projects-item" href="https://ibabo1414.github.io/Mon-blog/" target="_blank">
+                                <div class="project-img">
+                                    <img src="images/blog.png" alt="Blog" />
+                                </div>
+                                <div class="project-tile">
+                                    <h3>Blog</h3>
+                                </div>
+                            </a>
+                        </div>
 
-              </div>
+                    </div>
+                </div>
             </div>
-            <button type="submit" name="submit" class="btn btn-primary" value="Login">Soumettez</button>
-          </form>
-        </div>
-      </div>
-    </section>
-    <!-- contact end -->
-  </main>
-  <!-- footer start -->
-  <footer id="footer" class="text-center">
-    <div class="footer-content">
-      <div class="container">
-        <div class="social-icons" data-aos="fade-right">
-          <a href="https://facebook.com/yourimendoza.ibabo" target="_blank"><i class="fab fa-facebook"></i></a>
-          <a href="https://twitter.com/youri_mendoza" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.pinterest.fr/iyourimendoza/boards/" target="_blank"><i class="fab fa-pinterest"></i></a>
-          <a id="profile-link" href="https://github.com/Ibabo1414?tab=repositories" target="_blank"><i
+        </section>
+        <!-- projects end -->
+        <!---============--- mes services ----=================----->
+        <section id="lesservices">
+            <div class="sec-title text-center formation">
+                <header>
+                    <h2 data-aos="fade-right">Mes services</h2>
+                </header>
+                <p class="messervices ymii" data-aos="fade-right">
+                    À travers ces quelques blocs, vous avez un ensemble des services que j'offres.
+                </p>
+            </div>
+            <!-- UIkit SECTION -->
+            <div class="uk-section uk-section-default" data-aos="fade-up">
+                <div class="uk-container">
+                    <div class="uk-margin uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
+                        <div>
+                            <div class="uk-animation-toggle" tabindex="0">
+                                <div class="uk-margin uk-card uk-card-default uk-card-hover uk-animation-shake">
+                                    <div class="uk-card-media-top">
+                                        <img src="images/cahier-des-charges.png" alt="" />
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">CAHIER DES CHARGES</h3>
+                                        <p>Je réponds à votre cahier des charges en développant toutes les fonctionnalités invisibles à l'utilisateur et nécessaires au fonctionnement de l'interface.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-animation-toggle" tabindex="0">
+                                <div class="uk-margin uk-card uk-card-default uk-card-hover uk-animation-shake">
+                                    <div class="uk-card-media-top">
+                                        <img src="images/maquette.jpeg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">MAQUETTAGE</h3>
+                                        <p>Je développe toute l'interface visible de votre site Web à partir d'une maquette, logo etc. Le but étant d'aboutir à une interface ergonomique et interactive.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-animation-toggle" tabindex="0">
+                                <div class="uk-margin uk-card uk-card-default uk-card-hover uk-animation-shake">
+                                    <div class="uk-card-media-top">
+                                        <img src="images/programmation.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">WEB DEVELOPMENT</h3>
+                                        <p>
+                                            Je réalise des sites web et web mobile dynamique et intuitif avec des technologies tels que HTML, CSS et JavaScript. Cela comprends également le langage de programmation PHP.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!----------------------------- counter start ------------------------>
+        <section id="counter">
+            <div class="counter-content text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="counter-item">
+                                <i class="fa fa-code"></i>
+                                <h3><span class="counter">112345</span>+</h3>
+                                <h4>LIGNES DE CODE</h4>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="counter-item">
+                                <i class="fa fa-tasks"></i>
+                                <h3><span class="counter">31</span>+</h3>
+                                <h4>PROJETS FINIS</h4>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="counter-item">
+                                <i class="fa fa-users"></i>
+                                <h3><span class="counter">7</span>+</h3>
+                                <h4>CLIENTS SATISFAITS</h4>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="counter-item">
+                                <i class="fas fa-clock"></i>
+                                <h3><span class="counter">2880</span>+</h3>
+                                <h4>NOMBRE D'HEURES</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- counter end -->
+
+        <!-- contact start -->
+        <section id="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="sec-title text-center">
+                        <header>
+                            <h2 data-aos="fade-right">Contactez-moi</h2>
+                        </header>
+                    </div>
+                    <div class="contact-info text-center" data-aos="zoom-in-right">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="contact-info-item">
+                                    <i class="fas fa-phone-volume"></i>
+                                    <h3>Téléphone</h3>
+                                    <p>+241077762556 <br>+241074779159</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="contact-info-item">
+                                    <i class="far fa-envelope"></i>
+                                    <h3>Email</h3>
+                                    <p>iyourimendoza@gmail.com <br>yourimendozaibabo@yahoo.com</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="contact-info-item">
+                                    <i class="fas fa-search-location"></i>
+                                    <h3>Address</h3>
+                                    <p>Libreville, Gabon
+                                        <br>Libreville Angondje</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form text-center">
+                    <form method="post" autocomplete="off" name="google-sheet">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="Name" id="name" placeholder="Nom (s)">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="Email" id="email" placeholder="Email">
+                                </div>
+
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea name="Message" class="form-control" id="Message" placeholder="Laissez votre message..." cols="100" row="4"></textarea>
+                                </div>
+
+                            </div>
+                        </div>
+                        <button type="submit" name="submit" class="btn btn-primary" value="Login">Soumettez</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- contact end -->
+    </main>
+    <!-- footer start -->
+    <footer id="footer" class="text-center">
+        <div class="footer-content">
+            <div class="container">
+                <div class="social-icons" data-aos="fade-right">
+                    <a href="https://facebook.com/yourimendoza.ibabo" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/youri_mendoza" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.pinterest.fr/iyourimendoza/boards/" target="_blank"><i class="fab fa-pinterest"></i></a>
+                    <a id="profile-link" href="https://github.com/Ibabo1414?tab=repositories" target="_blank"><i
             class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/youri-mendoza-ibabo-466785120" target="_blank"><i
+                    <a href="https://www.linkedin.com/in/youri-mendoza-ibabo-466785120" target="_blank"><i
               class="fab fa-linkedin"></i></a>
-        </div>
-        <div class="copyright">
-          <p>copyright &copy; <a href="#">Youri-Mendoza IBABO-ISSOUDI</a> , 2020 &vert; Toute réproduction interdite</p>
-        </div>
-      </div>
-      <button id="back-to-top-btn">
+                </div>
+                <div class="copyright">
+                    <p>copyright &copy; <a href="#">Youri-Mendoza IBABO-ISSOUDI</a> , 2020 &vert; Toute réproduction interdite</p>
+                </div>
+            </div>
+            <button id="back-to-top-btn">
         <i class="fa fa-angle-double-up"></i>
       </button>
-    </div>
-  </footer>
-  <!-- footer End -->
-  <!-- js file -->
-  <script src="js/jquery-1.12.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-  <script src="js/custom.js"></script>
-   <!--<script src="js/loader.js"></script>-->
-  <script src="js/back.js"></script>
-     <!------- Start of the gs-sheet -------->
-     <script src="js/gs-sheet.js"></script>
-     <!------- End of the gs-sheet -------->
-  <!-- AOS -->
-  <script>
-    AOS.init();
-  </script>
+        </div>
+    </footer>
+    <!-- footer End -->
+    <!-- js file -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!--<script src="js/loader.js"></script>-->
+    <script src="js/back.js"></script>
+    <!------- Start of the gs-sheet -------->
+    <script src="js/gs-sheet.js"></script>
+    <!------- End of the gs-sheet -------->
+    <!-- AOS -->
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
