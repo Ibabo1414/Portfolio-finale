@@ -78,9 +78,9 @@ img {
 }
 
 .navbar-light .navbar-toggler {
-    color: rgb(255, 255, 255);
-    border-color: rgb(221, 221, 221);
-    background: #ddd;
+    color: #FF8C00;
+    border-color: #ffffff;
+    background: #FF8C00;
 }
 
 @media screen and (max-width: 1024px) {
@@ -416,6 +416,13 @@ a {
     }
 }
 
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .contactez-nous-but {
+        padding-top: 2em;
+        /*margin-left: -12%;*/
+    }
+}
+
 
 /****************** mes realisations *****************/
 
@@ -642,7 +649,7 @@ p.messervices {
 
 .contactez-nous-but {
     position: relative;
-    margin-left: 66%;
+    margin-left: 40%;
     margin-top: 2%;
     margin-bottom: 3%;
 }
@@ -707,6 +714,10 @@ p.messervices {
 
 .sub-but-a:hover {
     color: #fff;
+}
+
+.blog-back {
+    margin-left: 5em;
 }
 
 
