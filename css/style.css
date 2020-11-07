@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Raleway:100,200,300,400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -136,6 +137,7 @@ img {
 
 .about-txt h2 {
     color: #FF8C00;
+    font-family: 'Oswald', sans-serif;
 }
 
 .about-txt h1 {
@@ -147,6 +149,12 @@ img {
 .about-txt h2 {
     padding-top: 2px;
     padding-bottom: 2px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nom {
+    color: #000000;
+    font-weight: bolder;
 }
 
 .social-icons {
