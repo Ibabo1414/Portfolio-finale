@@ -2,27 +2,27 @@
     "name": "Youri-Mendoza IBABO-ISSOUDI",
     "short_name": "Youri Mendoza",
     "icons": [{
-        "src": "images/ymii-icon-128.png",
+        "src": "img/ymii-icon-128.png",
         "sizes": "128x128",
         "type": "image/png"
     }, {
-        "src": "images/ymii-icon-144.png",
+        "src": "img/ymii-icon-144.png",
         "sizes": "144x144",
         "type": "image/png"
     }, {
-        "src": "images/ymii-icon-152.png",
+        "src": "img/ymii-icon-152.png",
         "sizes": "152x152",
         "type": "image/png"
     }, {
-        "src": "images/ymii-icon-192.png",
+        "src": "img/ymii-icon-192.png",
         "sizes": "192x192",
         "type": "image/png"
     }, {
-        "src": "images/ymii-icon-256.png",
+        "src": "img/ymii-icon-256.png",
         "sizes": "256x256",
         "type": "image/png"
     }, {
-        "src": "images/ymii-icon-512.png",
+        "src": "img/ymii-icon-512.png",
         "sizes": "512x512",
         "type": "image/png"
     }],
