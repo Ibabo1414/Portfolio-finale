@@ -1183,7 +1183,7 @@ footer {
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     transition-property: background-color, color;
-    z-index: 99;
+    z-index: 999999;
 }
 
 #back-to-top-btn:hover,
