@@ -1,25 +1,20 @@
-var cacheName = 'hello-pwa';
-var filesToCache = [
-    '/',
-    '/index.html',
-    '/css/style.css',
-    '/js/main.js'
-];
-
-/* Start the service worker and cache all of the app's content */
-self.addEventListener('install', function(e) {
-    e.waitUntil(
-        caches.open(cacheName).then(function(cache) {
-            return cache.addAll(filesToCache);
-        })
-    );
+// On install - caching the application shell
+self.addEventListener('install', function(event) {
+  event.waitUntil(
+    caches.open('sw-cache').then(function(cache) {
+      // cache any static files that make up the application shell
+      return cache.add('index.html');
+    })
+  );
 });
 
-/* Serve cached content when offline */
-self.addEventListener('fetch', function(e) {
-    e.respondWith(
-        caches.match(e.request).then(function(response) {
-            return response || fetch(e.request);
-        })
-    );
+// On network request
+self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    // Try the cache
+    caches.match(event.request).then(function(response) {
+      //If response found return it, else fetch again
+      return response || fetch(event.request);
+    })
+  );
 });
